@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.506" y1="-0.957" x2="0.476" y2="7.34" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4dc7ed"/>
+      <stop offset="0.24" stop-color="#4097cf"/>
+      <stop offset="0.47" stop-color="#356fb6"/>
+      <stop offset="0.68" stop-color="#2d52a4"/>
+      <stop offset="0.87" stop-color="#294099"/>
+      <stop offset="1" stop-color="#273a95"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.507" y1="-1.188" x2="0.475" y2="7.103" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.538" y1="-8.156" x2="0.389" y2="25.69" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.533" y1="-7.111" x2="0.385" y2="26.735" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="0.508" y1="-0.871" x2="0.475" y2="4.218" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="0.512" y1="-1.845" x2="0.47" y2="6.104" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="الهوية_البصرية" data-name="الهوية البصرية" transform="translate(1781 6145)">
+    <rect id="Rectangle_4740" data-name="Rectangle 4740" width="80" height="80" transform="translate(-1781 -6145)" fill="#fff" opacity="0"/>
+    <g id="Icon" transform="translate(-1771 -6144)">
+      <path id="Path_5753" data-name="Path 5753" d="M590.784,375.419l-2.538,2.541-8.04-8.041a.525.525,0,0,0-.735,0L548.138,401.26l-2.5-2.49a.522.522,0,0,1,0-.735l33.888-33.879a.519.519,0,0,1,.735,0l10.522,10.531a.513.513,0,0,1,0,.732Z" transform="translate(-545.232 -364.004)" fill="url(#linear-gradient)"/>
+      <path id="Path_5754" data-name="Path 5754" d="M588.33,402.4l-2.473,2.473-5.724-5.724a.516.516,0,0,0-.732.018s-1.39,1.313-1.517,1.44l-29.934,29.934-2.508-2.511a.522.522,0,0,1,0-.732l33.891-33.894a.528.528,0,0,1,.732,0l8.262,8.262A.531.531,0,0,1,588.33,402.4Z" transform="translate(-545.094 -384.628)" fill="url(#linear-gradient-2)"/>
+      <rect id="Rectangle_2223" data-name="Rectangle 2223" width="9.253" height="9.315" rx="0.48" transform="translate(54.198 36.968) rotate(45)" fill="url(#linear-gradient-3)"/>
+      <rect id="Rectangle_2224" data-name="Rectangle 2224" width="9.253" height="9.315" rx="0.48" transform="translate(44.479 27.382) rotate(45)" fill="url(#linear-gradient-4)"/>
+      <path id="Path_5755" data-name="Path 5755" d="M579.464,474.789l-7.8,7.8a.631.631,0,0,1-.106.065l-.431.428a.475.475,0,0,1-.685,0L544.77,457.412a.516.516,0,0,1,0-.729l34.071-34.048a.52.52,0,0,1,.735,0l5.9,5.9a.522.522,0,0,1,0,.738l-27.887,27.884,13.222,13.222,2.116-2.116Z" transform="translate(-544.62 -405.229)" fill="url(#linear-gradient-5)"/>
+      <path id="Path_5756" data-name="Path 5756" d="M638,520.136l-4.86,4.86a1.18,1.18,0,0,1-1.688,0l-21.292-21.3a1.18,1.18,0,0,1,0-1.682l4.892-4.848c.035-.035.05-.062.086-.1l9.631-9.631s.029,0,.035-.021l.808-.808a.484.484,0,0,1,.688,0l15.836,15.839a.478.478,0,0,1,0,.684l-5.86,5.857a.047.047,0,0,0-.035.021l-3.361,3.39-6.55-6.551,3.066-3.066-3.432-3.435-3.523,3.541,15.57,15.573a1.18,1.18,0,0,1-.012,1.673Z" transform="translate(-590.572 -450.33)" fill="url(#linear-gradient-6)"/>
+    </g>
+  </g>
+</svg>

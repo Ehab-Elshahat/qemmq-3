@@ -1,0 +1,427 @@
+/**
+ * Start Header
+ *
+ * @format
+ */
+
+.web-des-header {
+  height: 90vh;
+  padding-top: 195px;
+  background-image: url("../assets/home-page/header-bg.svg");
+  background-size: cover;
+  background-position: center 130px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .web-des-header {
+    height: auto;
+  }
+}
+.web-des-header .row {
+  align-items: center;
+}
+.web-des-header .header-r h1 {
+  margin: auto;
+  width: max-content;
+  padding: 15px 100px;
+}
+
+@media (max-width: 991px) {
+  .web-des-header .header-r {
+    margin-bottom: 30px;
+  }
+  .web-des-header .header-r h1 {
+    padding: 15px 30px;
+  }
+}
+.web-des-header .header-r p {
+  max-width: 480px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px auto;
+  line-height: 2;
+  color: #3c414b;
+}
+@media(max-width: 500px) {
+  .web-des-header .header-r p {
+    font-size: 16px;
+  }
+}
+
+.web-des-header .container .col-lg-4 {
+  margin-top: -100px;
+}
+.web-des-header .header-l {
+  width: 300px;
+    margin: auto;
+ 
+}
+@media (max-width: 991px) {
+  .web-des-header .header-l {
+    left: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .web-des-header .container .col-lg-4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+}
+/* End Header */
+
+/* Start large box */
+.large-box {
+  background-color: #fcfcfc;
+}
+@media(max-width: 991px) {
+ .large-box{
+  margin-top: 60px !important;
+ } 
+}
+.large-box .large-box-text {
+  position: relative;
+  min-height: 200px;
+  padding: 25px;
+  background: transparent radial-gradient(#3756e8 0%, #4dc7ed 100%);
+  box-shadow: 0px 1px 1px #47474729;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+@media (max-width: 991px) {
+  .large-box .large-box-text {
+    padding: 40px;
+  }
+}
+.large-box .large-box-text p {
+  font-size: 16px;
+  color: #dfffff;
+  line-height: 1.7;
+}
+.large-box .bg-img {
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  z-index: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+@media (max-width: 991px) {
+  .large-box .bg-img {
+    top: -60px;
+    right: 50%;
+    transform: translate(50%, 0) rotate(90deg);
+    -webkit-transform: translate(50%, 0) rotate(90deg);
+    -moz-transform: translate(50%, 0) rotate(90deg);
+    -ms-transform: translate(50%, 0) rotate(90deg);
+    -o-transform: translate(50%, 0) rotate(90deg);
+  }
+}
+.large-box .bg-img img {
+  width: 100px;
+}
+/* End large box */
+
+/* Start Customize and create  */
+.custom-create {
+  background-color: #fff;
+  box-shadow: 0px 3px 5px #d0e0e6;
+}
+.custom-box {
+  height: 280px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(242 245 249/ 30%);
+
+  box-shadow: 0px 1px 1px rgb(71 71 71 / 10%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.custom-box .custom-box-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--headingSectionsColor);
+  text-align: center;
+}
+.custom-box .custom-icon {
+  width: 60px;
+  margin: auto;
+}
+.custom-box .custom-icon img {
+  width: 100%;
+}
+.custom-box .custom-p {
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+/* End Customize and create  */
+
+/* Start  Make your idea */
+
+.your-idea .container {
+  background-color: #fff;
+  box-shadow: 0px 16px 25px #d0e0e6;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.your-idea h5.section-boxes-title {
+  color: var(--textSecundColor);
+}
+.idea-boxes .main {
+  height: 500px;
+  background-image: url("../assets/web-design-page/bg-your-idea.svg");
+  background-position: 6vw 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+ 
+}
+.idea-box {
+  height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin-top: 16px;
+    width: 250px;
+    margin-right: 280px;
+}
+.idea-box.mr-130 {
+  margin-right: 130px;
+}
+.idea-box.mr-50 {
+  margin-right: 15px;
+}
+
+.idea-box-icon {
+ 
+  width: 70px;
+  margin-bottom: 10px;
+}
+@media (max-width: 1399px) {
+  .idea-box  {
+    margin-right: 145px;
+  }
+  .top .idea-box .idea-box-icon {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 1199px) {
+  .idea-box  {
+    margin-right: 30px;
+  }
+  .idea-box.mr-130 {
+    margin-right: 0;
+  }
+  .idea-box.mr-50 {
+  margin-right: -45px;
+}
+}
+.idea-box-icon img {
+  width: 100%;
+}
+.idea-box .idea-box-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--headingSectionsColor);
+  margin-bottom: 10px;
+}
+.idea-box .idea-box-p {
+  font-size: 13px;
+
+  color: var(--textSecundColor);
+  line-height: 1.7;
+}
+.idea-box-p.develop {
+  width: 80% !important;
+}
+
+.idea-box-p.publish {
+  width: 75%;
+}
+@media (max-width: 1399px) {
+  .idea-box .idea-box-p {
+    margin-bottom: 10px;
+  }
+  .idea-box .idea-box-p.custom-max-1399 {
+    width: 80% !important;
+  }
+}
+.idea-box.middle {
+  height: auto;
+  flex-direction: row;
+ margin-right: 75px;
+     align-items: center;
+ 
+    margin-top: 0;
+   
+}
+@media(min-width: 1600px) {
+ .idea-box.middle {
+  margin-right: 40px;
+ } 
+}
+.idea-box.middle > div {
+  width: 60%;
+}
+
+@media(max-width:1400px) {
+.idea-box.middle {
+  margin-right: 25px;
+}
+}
+@media(max-width:1199px) {
+.idea-box.middle {
+  margin-right: -25px;
+}
+}
+
+.idea-box.middle .idea-box-icon {
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 1199px) {
+  .idea-box.middle .idea-box-p {
+    width: auto;
+  }
+  .idea-box .w-50 {
+    width: 80% !important;
+  }
+}
+.idea-boxes .row.bottom {
+  align-items: end;
+}
+.idea-boxes .row.bottom .idea-box {
+  height: 170px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+position: relative;
+top: 7px;
+
+}
+
+.your-idea .contact-us a {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  margin: 30px auto;
+  text-decoration: none;
+  background-color: #0071bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: var(--mainTransitionTim);
+  -webkit-transition: var(--mainTransitionTim);
+  -moz-transition: var(--mainTransitionTim);
+  -ms-transition: var(--mainTransitionTim);
+  -o-transition: var(--mainTransitionTim);
+}
+.your-idea .contact-us a::before {
+  content: "تواصل معنا";
+}
+
+.your-idea .contact-us a:hover {
+  background-color: var(--hover-03c3ff);
+}
+.your-idea .contact-us a:hover::before {
+  content: "تواصل الان";
+}
+
+.your-idea .contact-us img {
+  width: 20px;
+  margin-right: 10px;
+}
+.main-mobile {
+  background-image: url("../assets/web-design-page/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center -25px;
+  margin-bottom: 50px;
+  background-size: contain;
+}
+.idea-box-mobile {
+  position: relative;
+
+  
+}
+.idea-box-mobile.right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+ margin-left: 40px;
+}
+.idea-box-mobile.right .box-mob-title {
+  text-align: left;
+  margin-left: 8px;
+}
+.idea-box-mobile.left {
+  margin-right: 45px;
+}
+.idea-box-mobile.tow {
+
+top:32px;
+}
+.idea-box-mobile.three {
+  top: 55px;
+}
+.idea-box-mobile.four {
+  top: 30px;
+}
+.idea-box-mobile.five {
+  top: 15px;
+}
+.idea-box-mobile.six {
+  top: 20px;
+}
+
+
+.idea-box-mobile.right .idea-box-p {
+  text-align: left;
+}
+.idea-box-mob-up .box-mob-title {
+  font-size: 18px;
+  font-weight: bold !important;
+  color: var(--headingSectionsColor);
+}
+
+.idea-box-mobile .idea-box-p {
+  font-size: 13px;
+  font-weight: bold;
+  color: var(--textSecundColor);
+  line-height: 1.7;
+}
+.idea-box-mobile.last {
+  top: 70px;
+  text-align: center;
+  
+}
+.idea-box-mobile.last .idea-box-mob-up {
+  display: block;
+  text-align: center;
+}
+.idea-box-mobile.last .box-mob-icon {
+  margin: auto;
+}
+/* End Make your idea */

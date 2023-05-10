@@ -1,0 +1,264 @@
+/** @format */
+
+.slider-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.slider-box .box-item svg {
+  width: 40px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.slider-box .box-item h5 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #2e2e2e;
+
+}
+
+.slider-box .box-item .img {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slider-box .box-item .img img {
+  width: 100%;
+  height: 100%;
+}
+
+input.bolits {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+input.bolits::before {
+  position: absolute;
+  cursor: pointer;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+input.bolits:hover::before {
+  background-color: #03c3ff;
+  border-color: #03c3ff;
+}
+input.bolits:checked::before {
+  background-color: #03c3ff;
+  border-color: #03c3ff;
+}
+input.bolits:nth-child(1) {
+  left: 46vw;
+}
+input.bolits:nth-child(2) {
+  left: 48vw;
+}
+input.bolits:nth-child(3) {
+  left: 50vw;
+}
+input.bolits:nth-child(4) {
+  left: 52vw;
+}
+input.bolits:nth-child(5) {
+  left: 54vw;
+}
+
+@media (max-width: 991px) {
+  input.bolits:nth-child(1) {
+    left: 45vw;
+  }
+  input.bolits:nth-child(2) {
+    left: 47vw;
+  }
+  input.bolits:nth-child(3) {
+    left: 49vw;
+  }
+  input.bolits:nth-child(4) {
+    left: 51vw;
+  }
+  input.bolits:nth-child(5) {
+    left: 53vw;
+  }
+}
+@media (max-width: 767px) {
+  input.bolits:nth-child(1) {
+    left: 40vw;
+  }
+  input.bolits:nth-child(2) {
+    left: 45vw;
+  }
+  input.bolits:nth-child(3) {
+    left: 50vw;
+  }
+  input.bolits:nth-child(4) {
+    left: 55vw;
+  }
+  input.bolits:nth-child(5) {
+    left: 60vw;
+  }
+}
+
+.slid-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  max-height: 600px;
+  display: flex;
+  transform-style: preserve-3d;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  position: relative;
+  height: 450px;
+  width: 360px;
+  margin-bottom: 20px;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.card .slider-item {
+  height: 100%;
+}
+.cards label {
+  position: absolute;
+width: max-content;
+  left: 0;
+  right: 0;
+  margin: auto;
+  cursor: pointer;
+  transition: transform 0.55s ease;
+}
+
+.cards .card {
+  width: 270px;
+  height: 420px;
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  border: none;
+
+  overflow: hidden;
+  box-shadow: 3px 3px 15px #7a7a7a29;
+
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  overflow: hidden;
+}
+
+#s1:checked ~ .cards #slide4,
+#s2:checked ~ .cards #slide5,
+#s3:checked ~ .cards #slide1,
+#s4:checked ~ .cards #slide2,
+#s5:checked ~ .cards #slide3 {
+  transform: translate3d(-280%, 0, -400px);
+  -webkit-transform: translate3d(-280%, 0, -400px);
+  -moz-transform: translate3d(-280%, 0, -400px);
+  -ms-transform: translate3d(-280%, 0, -400px);
+  -o-transform: translate3d(-280%, 0, -400px);
+}
+
+#s1:checked ~ .cards #slide5,
+#s2:checked ~ .cards #slide1,
+#s3:checked ~ .cards #slide2,
+#s4:checked ~ .cards #slide3,
+#s5:checked ~ .cards #slide4 {
+  transform: translate3d(-135%, 0, -200px);
+  -webkit-transform: translate3d(-135%, 0, -200px);
+  -moz-transform: translate3d(-135%, 0, -200px);
+  -ms-transform: translate3d(-135%, 0, -200px);
+  -o-transform: translate3d(-135%, 0, -200px);
+}
+
+#s1:checked ~ .cards #slide1,
+#s2:checked ~ .cards #slide2,
+#s3:checked ~ .cards #slide3,
+#s4:checked ~ .cards #slide4,
+#s5:checked ~ .cards #slide5 {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+#s1:checked ~ .cards #slide2,
+#s2:checked ~ .cards #slide3,
+#s3:checked ~ .cards #slide4,
+#s4:checked ~ .cards #slide5,
+#s5:checked ~ .cards #slide1 {
+  transform: translate3d(135%, 0, -220px);
+  -webkit-transform: translate3d(135%, 0, -220px);
+  -moz-transform: translate3d(135%, 0, -220px);
+  -ms-transform: translate3d(135%, 0, -220px);
+  -o-transform: translate3d(135%, 0, -220px);
+}
+
+#s1:checked ~ .cards #slide3,
+#s2:checked ~ .cards #slide4,
+#s3:checked ~ .cards #slide5,
+#s4:checked ~ .cards #slide1,
+#s5:checked ~ .cards #slide2 {
+  transform: translate3d(280%, 0, -400px);
+  -webkit-transform: translate3d(280%, 0, -400px);
+  -moz-transform: translate3d(280%, 0, -400px);
+  -ms-transform: translate3d(280%, 0, -400px);
+  -o-transform: translate3d(280%, 0, -400px);
+}
+
+#s1:checked ~ .cards #slide1 .card,
+#s2:checked ~ .cards #slide2 .card,
+#s3:checked ~ .cards #slide3 .card,
+#s4:checked ~ .cards #slide4 .card,
+#s5:checked ~ .cards #slide5 .card {
+  /* background: transparent linear-gradient(#273a95 -100%, #4dc7ed 100%); */
+  background: transparent linear-gradient(#273a95 -195%, #4dc7ed 80%);
+}
+#s1:checked ~ .cards #slide1 .card .slider-box .box-item h5,
+#s2:checked ~ .cards #slide2 .card .slider-box .box-item h5,
+#s3:checked ~ .cards #slide3 .card .slider-box .box-item h5,
+#s4:checked ~ .cards #slide4 .card .slider-box .box-item h5,
+#s5:checked ~ .cards #slide5 .card .slider-box .box-item h5 {
+  color: #fff;
+}
+#s1:checked ~ .cards #slide1 .card .slider-box hr,
+#s2:checked ~ .cards #slide2 .card .slider-box hr,
+#s3:checked ~ .cards #slide3 .card .slider-box hr,
+#s4:checked ~ .cards #slide4 .card .slider-box hr,
+#s5:checked ~ .cards #slide5 .card .slider-box hr {
+  border-color: #fff !important;
+}
+#s1:checked ~ .cards #slide1 .card .slider-item .slider-box .box-item svg path,
+#s2:checked ~ .cards #slide2 .card .slider-item .slider-box .box-item svg path,
+#s3:checked ~ .cards #slide3 .card .slider-item .slider-box .box-item svg path,
+#s4:checked ~ .cards #slide4 .card .slider-item .slider-box .box-item svg path,
+#s5:checked ~ .cards #slide5 .card .slider-item .slider-box .box-item svg path {
+  fill: #fff !important;
+}
+
+/*End Slider -2 */

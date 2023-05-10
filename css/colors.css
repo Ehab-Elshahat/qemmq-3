@@ -1,0 +1,17 @@
+/** @format */
+
+:root {
+  --unnamed-color-273587: #263a96;
+  --headingSectionsColor: #0071bc; 
+  --hover-03c3ff: #03c3ff;
+  --unnamed-color-2e2e2e: #2e2e2e;
+  --unnamed-color-29abe2: #29abe2;
+  --textLight: #fff;
+  --textSecundColor: #3c414b;
+  --text-muted-707070: #707070;
+  --unnamed-color-d9f2f2: rgb(217 242 242 / 20%);
+  --unnamed-color-fff34b: #fff34b;
+  --unnamed-color-234192: #234192;
+  --mainTransitionTim: all 0.3s ease-in-out;
+}
+

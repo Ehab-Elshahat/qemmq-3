@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_10371" data-name="Path 10371" d="M56.422,17.758a.877.877,0,1,0,0,1.753h5.262a.877.877,0,0,0,0-1.753Zm0-3.508a.877.877,0,1,0,0,1.753H66.944a.877.877,0,1,0,0-1.753ZM53.789,2.85a.879.879,0,0,1,.879-.879h47.356a.877.877,0,0,1,.876.879V7.233H53.789ZM54.668.218A2.631,2.631,0,0,0,52.036,2.85v5.26a.878.878,0,0,0,.877.877h50.864a.877.877,0,0,0,.876-.877V2.85A2.63,2.63,0,0,0,102.024.218Z" transform="translate(-52.036 -0.218)" fill="#29abe2"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_10372" data-name="Path 10372" d="M59.436,3.562a.877.877,0,1,0,.877-.877.877.877,0,0,0-.877.877" transform="translate(-59.436 -2.685)" fill="#29abe2"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_10373" data-name="Path 10373" d="M56.97,3.562a.877.877,0,1,0,.877-.877.876.876,0,0,0-.877.877" transform="translate(-56.97 -2.685)" fill="#29abe2"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_10374" data-name="Path 10374" d="M54.5,3.562a.877.877,0,1,0,.877-.877.877.877,0,0,0-.877.877" transform="translate(-54.503 -2.685)" fill="#29abe2"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Path_10375" data-name="Path 10375" d="M54.668.218A2.631,2.631,0,0,0,52.036,2.85V41.436a2.63,2.63,0,0,0,2.632,2.629H73.96a.877.877,0,1,0,0-1.753H54.668a.878.878,0,0,1-.879-.876V2.85a.879.879,0,0,1,.879-.879h47.356a.877.877,0,0,1,.876.879V41.436a.876.876,0,0,1-.876.876H96.762a.877.877,0,1,0,0,1.753h5.262a2.63,2.63,0,0,0,2.629-2.629V2.85A2.63,2.63,0,0,0,102.024.218Z" transform="translate(-52.036 -0.218)" fill="#29abe2"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <path id="Path_10376" data-name="Path 10376" d="M70.814,22.755a8.771,8.771,0,0,0-2.328,12.183.877.877,0,0,0,1.448-.988,7.017,7.017,0,1,1,5.809,3.076.877.877,0,1,0,0,1.753,8.77,8.77,0,1,0-4.929-16.024m1.175-9.97-3.333,1.086a.876.876,0,0,0-.6.936l.381,3.23a14.1,14.1,0,0,0-1.81,1.325L63.662,18a.877.877,0,0,0-1.075.28L60.52,21.12a.874.874,0,0,0,.065,1.109l2.21,2.4a14.238,14.238,0,0,0-.7,2.133L58.9,27.4a.875.875,0,0,0-.7.859v3.507a.876.876,0,0,0,.7.859l3.193.648c.108.449.239.89.388,1.325a.879.879,0,0,0,1.661-.576,11.593,11.593,0,0,1-.451-1.664.879.879,0,0,0-.691-.7l-3.048-.61V28.975l3.026-.61a.88.88,0,0,0,.691-.7,12.249,12.249,0,0,1,.931-2.847.878.878,0,0,0-.151-.964l-2.1-2.291,1.214-1.677,2.833,1.3a.876.876,0,0,0,.964-.154,12.356,12.356,0,0,1,2.42-1.77.877.877,0,0,0,.447-.876L69.866,15.3l1.968-.64,1.523,2.715a.878.878,0,0,0,.876.441,12.413,12.413,0,0,1,2.995,0,.9.9,0,0,0,.877-.441l1.523-2.715,1.97.64-.363,3.086a.877.877,0,0,0,.447.876,12.356,12.356,0,0,1,2.42,1.77.876.876,0,0,0,.964.154l2.833-1.3,1.214,1.675-2.1,2.291a.874.874,0,0,0-.151.963,12.272,12.272,0,0,1,.931,2.85.877.877,0,0,0,.691.7l3.046.61v2.071l-3.046.6a.871.871,0,0,0-.691.7,12.239,12.239,0,0,1-.931,2.846.879.879,0,0,0,.151.966L89.166,38.5a.879.879,0,0,0,.643.282v0h.007a.877.877,0,0,0,.641-1.472L88.69,35.395a14.178,14.178,0,0,0,.7-2.133l3.188-.639a.876.876,0,0,0,.7-.859V28.257a.875.875,0,0,0-.711-.862l-3.188-.639a14.072,14.072,0,0,0-.7-2.133l2.208-2.395a.876.876,0,0,0,.065-1.111L88.89,18.28A.876.876,0,0,0,87.815,18l-2.961,1.362a14.1,14.1,0,0,0-1.81-1.325l.38-3.231a.875.875,0,0,0-.6-.936L79.49,12.785a.874.874,0,0,0-1.034.407l-1.594,2.837a12.871,12.871,0,0,0-2.245,0l-1.591-2.837a.876.876,0,0,0-.765-.449.9.9,0,0,0-.272.043" transform="translate(-58.203 -12.742)" fill="#29abe2"/>
+    </clipPath>
+  </defs>
+  <g id="حلول_ويب_للمؤسسات_" data-name="حلول ويب للمؤسسات " transform="translate(-638 -1810)">
+    <g id="Ellipse_165" data-name="Ellipse 165" transform="translate(638 1810)" fill="#fff" stroke="#29abe2" stroke-width="1" stroke-dasharray="3">
+      <circle cx="45" cy="45" r="45" stroke="none"/>
+      <circle cx="45" cy="45" r="44.5" fill="none"/>
+    </g>
+    <g id="Group_5570" data-name="Group 5570" transform="translate(657 1833)">
+      <g id="Group_5557" data-name="Group 5557" transform="translate(0)">
+        <g id="Group_5556" data-name="Group 5556" clip-path="url(#clip-path)">
+          <rect id="Rectangle_3672" data-name="Rectangle 3672" width="51.541" height="50.109" transform="matrix(0.728, -0.685, 0.685, 0.728, -9.629, 9.06)" fill="#29abe2"/>
+        </g>
+      </g>
+      <g id="Group_5559" data-name="Group 5559" transform="translate(10.524 3.508)">
+        <g id="Group_5558" data-name="Group 5558" clip-path="url(#clip-path-2)">
+          <rect id="Rectangle_3673" data-name="Rectangle 3673" width="2.48" height="2.48" transform="translate(-0.875 0.823) rotate(-43.258)" fill="#29abe2"/>
+        </g>
+      </g>
+      <g id="Group_5561" data-name="Group 5561" transform="translate(7.017 3.508)">
+        <g id="Group_5560" data-name="Group 5560" clip-path="url(#clip-path-3)">
+          <rect id="Rectangle_3674" data-name="Rectangle 3674" width="2.479" height="2.479" transform="matrix(0.728, -0.685, 0.685, 0.728, -0.875, 0.823)" fill="#29abe2"/>
+        </g>
+      </g>
+      <g id="Group_5563" data-name="Group 5563" transform="translate(3.508 3.508)">
+        <g id="Group_5562" data-name="Group 5562" clip-path="url(#clip-path-4)">
+          <rect id="Rectangle_3675" data-name="Rectangle 3675" width="2.479" height="2.479" transform="translate(-0.875 0.823) rotate(-43.258)" fill="#29abe2"/>
+        </g>
+      </g>
+      <g id="Group_5565" data-name="Group 5565" transform="translate(0)">
+        <g id="Group_5564" data-name="Group 5564" clip-path="url(#clip-path-5)">
+          <rect id="Rectangle_3676" data-name="Rectangle 3676" width="68.368" height="67.991" transform="matrix(0.728, -0.685, 0.685, 0.728, -21.883, 20.591)" fill="#29abe2"/>
+        </g>
+      </g>
+      <g id="Group_5567" data-name="Group 5567" transform="translate(8.77 17.81)">
+        <g id="Group_5566" data-name="Group 5566" clip-path="url(#clip-path-6)">
+          <rect id="Rectangle_3677" data-name="Rectangle 3677" width="43.451" height="43.066" transform="translate(-13.04 12.183) rotate(-43.258)" fill="#29abe2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

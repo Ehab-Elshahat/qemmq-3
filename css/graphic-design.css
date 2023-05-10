@@ -1,0 +1,196 @@
+/**
+*
+* @format
+*/
+
+.web-des-header {
+  height: 90vh;
+  padding-top: 195px;
+  background-image: url("../assets/home-page//header-bg.svg");
+  background-size: cover;
+  background-position: center 130px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .web-des-header {
+    height: auto;
+  }
+}
+.web-des-header .row {
+  align-items: center;
+}
+.web-des-header .header-r h1 {
+  margin: auto;
+  width: max-content;
+  padding: 15px 100px;
+}
+
+@media (max-width: 991px) {
+  .web-des-header .header-r {
+    margin-bottom: 30px;
+  }
+  .web-des-header .header-r h1 {
+    padding: 15px 30px;
+  }
+}
+.web-des-header .header-r p {
+  max-width: 480px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px auto;
+  line-height: 2;
+  color: #3c414b;
+}
+@media(max-width: 500px) {
+  .web-des-header .header-r p {
+    font-size: 16px;
+  }
+}
+
+.web-des-header .container .col-lg-4 {
+  margin-top: -100px;
+}
+.web-des-header .header-l {
+  width: 300px;
+    margin: auto;
+ 
+}
+@media (max-width: 991px) {
+  .web-des-header .header-l {
+    left: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .web-des-header .container .col-lg-4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+}
+/* End Header */
+
+/* Start Main Section */
+
+
+.main-graphic-design .box-imag {
+   cursor: pointer;
+   height: 500px;
+   overflow: hidden;
+   position: relative;
+   transition: var(--mainTransitionTim);
+   -webkit-transition: var(--mainTransitionTim);
+   -moz-transition: var(--mainTransitionTim);
+   -ms-transition: var(--mainTransitionTim);
+   -o-transition: var(--mainTransitionTim);
+   transform: scale(.9);
+   -webkit-transform: scale(.9);
+   -moz-transform: scale(.9);
+   -ms-transform: scale(.9);
+   -o-transform: scale(.9);
+   border-radius: 7px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   -ms-border-radius: 7px;
+   -o-border-radius: 7px;
+}
+.main-graphic-design .box-imag img {
+
+  object-fit: cover;
+  height: 100%;
+}
+.main-graphic-design .box-imag .overlay {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  bottom: -100%;
+  left: -100%;
+  padding: 10px;
+  background-image: url("../assets/graphic-design-page/overlay-bg.svg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(0 113 188 / 80%);
+  color: #fff;
+  overflow: hidden;
+  border-radius: 50% ;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  transition: var(--mainTransitionTim) ;
+  -webkit-transition: var(--mainTransitionTim) ;
+  -moz-transition: var(--mainTransitionTim) ;
+  -ms-transition: var(--mainTransitionTim) ;
+  -o-transition: var(--mainTransitionTim) ;
+}
+.main-graphic-design .box-imag .overlay h3 {
+
+  text-align: center;
+  font-size: 20px;
+  margin: 70px  auto 25px ;
+  font-weight: bold;
+  overflow: hidden;
+}
+.main-graphic-design .box-imag .overlay p {
+
+overflow: hidden;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 11px;
+  width: 270px;
+  margin-left: auto;
+  margin-right: 85px;
+  text-align: right;
+}
+.main-graphic-design .box-imag:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+.main-graphic-design .box-imag:hover .overlay{
+  bottom: -120px;
+  left: -120px;
+  
+}
+
+@media(max-width:767px) {
+ .main-graphic-design {
+  margin-top: 150px;
+ } 
+}
+.main-graphic-design .row {
+  margin-bottom: 2rem;
+}
+
+.main-graphic-design .be-client a {
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  text-decoration: none;
+  background-color: #0071bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: var(--mainTransitionTim);
+  -webkit-transition: var(--mainTransitionTim);
+  -moz-transition: var(--mainTransitionTim);
+  -ms-transition: var(--mainTransitionTim);
+  -o-transition: var(--mainTransitionTim);
+}
+
+.main-graphic-design .be-client a:hover {
+  background-color: var(--hover-03c3ff);
+}
+
+.main-graphic-design .be-client img {
+  width: 20px;
+  margin-right: 10px;
+}
+/* End Main Section */
