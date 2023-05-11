@@ -4,10 +4,10 @@
 let loaderContainer = document.querySelector(".loader-container");
 let page = document.documentElement;
 window.addEventListener("load", () => {
-  setTimeout(() => {
+
     loaderContainer.style.display = "none";
     page.style.overflowY = "auto";
-  }, 700);
+ 
 });
 
 // Scroll Top Btn
