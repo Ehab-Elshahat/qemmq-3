@@ -432,13 +432,13 @@
   background-position: center;
 }
 .our-work-img.one {
-  background-image: url("../assets/home-page/our-work-section/vesuvio-2.png");
+  background-image: url("../assets/home-page/our-work-section/vesuvio.jpg");
 }
 .our-work-img.tow {
-  background-image: url("../assets/home-page/our-work-section/trackmate.png");
+  background-image: url("../assets/home-page/our-work-section/trackmate.jpg");
 }
 .our-work-img.three {
-  background-image: url("../assets/home-page/our-work-section/ta3alam.png");
+  background-image: url("../assets/home-page/our-work-section/ta3alam.jpg");
 }
 
 /* End Our Work */
