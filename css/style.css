@@ -1,11 +1,33 @@
 /** @format */
 
-@import "./colors.css";
-
+/* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;500;600;700;900&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@import "./hompage.css";
+ /* Custom Classes */
+@import "./classes.css";
+
+/* Colors */
+@import "./colors.css";
+
+/* Our Services Section In Home Page */
 @import "./slider.css";
+
+/* Style Home Page */
+@import "./hompage.css";
+
+/* Style Web design Page */
+@import "./web-design.css";
+
+/* Style Mobile app development */
+@import "./mobile-app-dev.css";
+
+/* Style Marketing Page */
+@import "./marketing-services.css";
+
+/* Style Graphic Design Page */
+@import "./graphic-design.css";
+
+
 
 html {
   scroll-behavior: smooth;
@@ -71,6 +93,9 @@ body {
   .navbar-brand img {
     width: 75px !important;
   }
+}
+.navbar-nav {
+  margin-right: auto !important;
 }
 .nav-item .nav-link {
   padding: 8px 15px;
@@ -513,7 +538,7 @@ body {
     display: block !important;
     padding: 20px 20px 50px 20px;
     height: 100vh;
-    position: absolute;
+    position: fixed;
 
     left: 100%;
     z-index: 1045;

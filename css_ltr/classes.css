@@ -1,0 +1,90 @@
+/** @format */
+
+.page-title-up,
+.page-title-down {
+  font-size: 3vh;
+  font-weight: bold;
+  background-color: var(--unnamed-color-29abe2);
+  color: var(--textLight);
+  padding: 15px 20px;
+
+}
+@media(max-width: 500px) {
+  .page-title-up,
+.page-title-down {
+  font-size: 2.5vh;
+}
+}
+.page-title-down {
+  border-top: 8px solid rgb(38 58 150 / 58%);
+  margin-top: -15px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+section .section-title-with-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .section-title-with-line > div {
+  width: 25%;
+  height: 2px;
+  background-color: #707070;
+}
+
+@media (max-width: 600px) {
+  section .section-title-with-line > div {
+    display: none;
+  }
+}
+
+section .section-title-with-line h2 {
+  font-weight: bold;
+  font-size: 3vh;
+  color: var(--headingSectionsColor);
+  margin-left: 20px;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.section-desc p {
+  text-align: center;
+  color: var(--unnamed-color-2e2e2e);
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .section-desc p {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  color: var(--headingSectionsColor);
+  font-size: 3vh;
+  line-height: 1.7;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  margin: 1rem 0;
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    margin: auto;
+    max-width: 350px;
+  }
+}
+
+.section-boxes-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--unnamed-color-273587);
+}

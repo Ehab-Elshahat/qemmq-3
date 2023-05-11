@@ -1,0 +1,366 @@
+/**
+ * Start Header
+ *
+ * @format
+ */
+
+.mobile-app-header {
+  height: 90vh;
+  padding-top: 195px;
+  background-image: url("../assets/home-page/header-bg.svg");
+  background-size: cover;
+  background-position: center 130px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .mobile-app-header {
+    height: auto;
+  }
+}
+.mobile-app-header .row {
+  align-items: center;
+}
+.mobile-app-header .header-r h1 {
+  margin: auto;
+  width: max-content;
+  padding: 15px 100px;
+}
+
+@media (max-width: 991px) {
+  .mobile-app-header .header-r {
+    margin-bottom: 30px;
+  }
+  .mobile-app-header .header-r h1 {
+    padding: 15px 30px;
+  }
+}
+.mobile-app-header .header-r p {
+  max-width: 480px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px auto;
+  line-height: 2;
+  color: #3c414b;
+}
+@media (max-width: 500px) {
+  .mobile-app-header .header-r p {
+    font-size: 16px;
+  }
+}
+.mobile-app-header .container .col-lg-4 {
+  margin-top: -100px;
+}
+.mobile-app-header .header-l {
+  width: 300px;
+  margin: auto;
+}
+@media (max-width: 991px) {
+  .mobile-app-header .container .col-lg-4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+/* End Header */
+
+/* Start large box */
+.large-box {
+  background-color: #fcfcfc;
+}
+@media (max-width: 991px) {
+  .large-box {
+    margin-top: 60px !important;
+  }
+}
+.large-box .large-box-text {
+  position: relative;
+  min-height: 200px;
+  padding: 25px;
+  background: transparent radial-gradient(#3756e8 0%, #4dc7ed 100%);
+  box-shadow: 0px 1px 1px #47474729;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.large-box .large-box-text .section-title {
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .large-box .large-box-text {
+    padding: 40px;
+  }
+}
+.large-box .large-box-text p {
+  font-size: 16px;
+  color: #dfffff;
+  line-height: 2;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+@media (max-width: 991px) {
+  .large-box .large-box-text p {
+    width: 90%;
+  }
+}
+.large-box .bg-img {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: -45px;
+  top: 50%;
+  z-index: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+@media (max-width: 991px) {
+  .large-box .bg-img {
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%, 0) rotate(90deg);
+    -webkit-transform: translate(-50%, 0) rotate(90deg);
+    -moz-transform: translate(-50%, 0) rotate(90deg);
+    -ms-transform: translate(-50%, 0) rotate(90deg);
+    -o-transform: translate(-50%, 0) rotate(90deg);
+}
+}
+.large-box .bg-img img {
+  width: 100px;
+}
+/* End large box */
+
+/* Start integrated solutions */
+
+.integrated-solutions {
+  background-color: #fff;
+}
+.integrated-box {
+  height: 280px;
+  margin-bottom: 25px;
+
+  padding: 20px;
+  background-color: rgb(242 245 249/ 30%);
+
+  box-shadow: 0px 1px 1px rgb(71 71 71 / 10%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.integrated-box .integrated-box-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--headingSectionsColor);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.integrated-box .integrated-icon {
+  width: 60px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.integrated-box .integrated-icon img {
+  width: 100%;
+}
+.integrated-box .integrated-p {
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+/* End integrated solutions */
+
+/* Start Design Steps */
+.desgin-steps .container {
+  background-color: #fff;
+  box-shadow: 0px 16px 25px #d0e0e6;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.desgin-steps h5.section-boxes-title {
+  color: var(--textSecundColor);
+}
+
+.steps {
+  background: url("../assets/mobile-app-page/ui-ux-bg.svg") no-repeat center;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.steps h6 {
+  text-align: center;
+  font-size: 16px;
+  color: #3c414b;
+  font-weight: bold;
+}
+.steps h6.mr-135 {
+  margin-left: 135px;
+}
+.steps h6.pl-10 {
+  padding-left: 10px;
+}
+.steps h6.pl-75 {
+  padding-left: 75px;
+}
+.steps > div {
+  justify-content: space-between;
+  align-items: center;
+
+  height: 40px;
+  margin: auto;
+}
+.steps > div.row-1 {
+  width: 870px;
+  padding-top: 30px;
+}
+.steps > div.row-2 {
+  width: 615px;
+}
+.steps > div.row-3 {
+  padding-top: 40px;
+  width: 710px;
+}
+.steps > div.row-4 {
+  width: 760px;
+  padding-bottom: 40px;
+}
+.steps > div h6:nth-child(1) {
+  text-align: right;
+}
+.steps > div h6:nth-child(2) {
+  text-align: left;
+}
+.steps h5 {
+  color: #0071bc;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.desgin-steps .contact-us a {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  margin: 30px auto;
+  text-decoration: none;
+  background-color: #0071bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: var(--mainTransitionTim);
+  -webkit-transition: var(--mainTransitionTim);
+  -moz-transition: var(--mainTransitionTim);
+  -ms-transition: var(--mainTransitionTim);
+  -o-transition: var(--mainTransitionTim);
+}
+.desgin-steps .contact-us a::before {
+  content: "Contact Us ";
+}
+
+.desgin-steps .contact-us a:hover {
+  background-color: var(--hover-03c3ff);
+}
+.desgin-steps .contact-us a:hover::before {
+  content: "Contact Now";
+}
+
+.desgin-steps .contact-us img {
+  width: 20px;
+  margin-left: 10px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.steps-mobile {
+  min-height: 500px;
+  background: url("../assets/mobile-app-page/ui-ux-bg-mobile.svg") no-repeat
+    center;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.steps-mobile h6 {
+  position: relative;
+}
+.steps-mobile h6.top {
+  top: -30px;
+}
+.steps-mobile .title-1 {
+  right: 50px;
+  top: 10px;
+}
+.steps-mobile .title-2 {
+  left: 60px;
+  top: 5px;
+  min-width: 126px;
+}
+.steps-mobile .title-3 {
+  right: 55px;
+  top: -25px;
+}
+.steps-mobile .title-4 {
+   left: 57px;
+  top: -25px;
+}
+.steps-mobile .title-5 {
+   right: 60px;
+  top: 10px;
+}
+.steps-mobile .title-6 {
+    left: 50px;
+  top: 10px;
+}
+.steps-mobile .title-7 {
+  text-align: right;
+   right: 60px;
+  top: -20px;
+}
+.steps-mobile .title-8 {
+    left: 50px;
+  top: -20px;
+}
+.steps-mobile h6.bottom {
+  bottom: -20px;
+}
+
+.steps-mobile h5.ui,
+.steps-mobile h5.ux {
+    color: #0071bc;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+.steps-mobile h5.ui {
+  top: -20px;
+}
+.steps-mobile h5.ux {
+  bottom: -30px;
+}
+/* End Design Steps */
