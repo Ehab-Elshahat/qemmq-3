@@ -1,0 +1,215 @@
+/**
+ * 
+ *
+ * @format
+ */
+
+ /* Start Header */
+
+.ourwork-page-header {
+  padding-top: 170px;
+  background-image: url("../assets/home-page/header-bg.png");
+  background-size: cover;
+  background-position: center 130px;
+  background-repeat: no-repeat;
+}
+
+.ourwork-page-header .header-text {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .ourwork-page-header .header-text {
+    min-height: auto;
+  }
+}
+
+.ourwork-page-header .header-text p {
+  font-weight: bold;
+  max-width: 700px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 2;
+  color: var(--textSecundColor);
+}
+
+@media (max-width: 600px) {
+  .ourwork-page-header .header-text p {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .ourwork-page-header .header-text p {
+    font-size: 14px;
+  }
+}
+/* End Header */
+
+/* Start Boxes Section */
+.ourwork-page-boxes .box {
+  cursor: pointer;
+  position: relative;
+  background-color: #F0F7FD;
+  padding: 100px 30px;
+  border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -ms-border-radius: 20px 20px 0 0;
+  -o-border-radius: 20px 20px 0 0;
+}
+.ourwork-page-boxes .box::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 10px;
+  right: 0;
+  bottom: 0;
+  background-color: #29ABE2;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+}
+.ourwork-page-boxes .box:hover::before {
+  width: 100%;
+}
+@media(max-width: 991px) {
+  .ourwork-page-boxes .box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.ourwork-page-boxes .box:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+.ourwork-page-boxes .box .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.ourwork-page-boxes .box .text-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.ourwork-page-boxes .box .text-desc {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: rgb(46 46 46 / 90%);
+}
+.ourwork-page-boxes .box .text-link {
+  text-decoration: none;
+  display: flex;
+  width: max-content;
+  align-items: center;
+  color: #29ABE2;
+}
+.ourwork-page-boxes .box .text-link h5{
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.ourwork-page-boxes .box .text-link img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 5px 5px;
+}
+@media(max-width: 991px) {
+  .ourwork-page-boxes .order-mobile-1{
+    order: 1;
+  }
+ .ourwork-page-boxes .order-mobile-2{
+    order: 2;
+  }
+}
+.ourwork-page-boxes .box .img {
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+@media(max-width: 991px) {
+  .ourwork-page-boxes .box .img {
+    margin-bottom: 30px;
+    
+  }
+}
+@media(max-width: 500px) {
+  .ourwork-page-boxes .box .img {
+    width: auto;
+    height: auto;
+  }
+}
+.ourwork-page-boxes .box .img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* End Boxes Section */
+
+/* Start Contact Us */
+.contact-us-ourwork .row {
+  align-items: center;
+  margin-bottom: 30px;
+}
+.contact-us-ourwork .row p {
+  font-size: 20px ;
+  font-weight: bold;
+  color: #0071bc;
+  line-height: 2;
+}
+@media(max-width: 991px) {
+  .contact-us-ourwork .row p {
+    text-align: center;
+  }
+}
+ .contact-us-ourwork .contact-us a {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  margin: 30px auto 30px 0;
+  
+  text-decoration: none;
+  background-color: #0071bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: var(--mainTransitionTim);
+  -webkit-transition: var(--mainTransitionTim);
+  -moz-transition: var(--mainTransitionTim);
+  -ms-transition: var(--mainTransitionTim);
+  -o-transition: var(--mainTransitionTim);
+}
+@media(max-width: 991px) {
+   .contact-us-ourwork .contact-us a {
+    margin: auto;
+   }
+}
+ .contact-us-ourwork .contact-us a::before {
+  content: "كن احد عملائنا";
+}
+
+ .contact-us-ourwork .contact-us a:hover {
+  background-color: var(--hover-03c3ff);
+}
+ .contact-us-ourwork .contact-us a:hover::before {
+  content: "تواصل الان";
+}
+
+ .contact-us-ourwork .contact-us img {
+  width: 20px;
+  margin-right: 10px;
+}
+/* End Contact Us */

@@ -1,0 +1,292 @@
+
+
+
+/* Start Header */
+.aboutcompany-header {
+  padding-top: 170px;
+  background: #fff url("../assets/home-page/header-bg.png") ;
+  background-size: cover;
+  background-position: center 130px;
+  background-repeat: no-repeat;
+}
+
+.aboutcompany-header .header-text {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutcompany-header .header-text .page-title-up {
+  width: 500px;
+  text-align: center;
+}
+
+@media(max-width: 991px) {
+  .aboutcompany-header .header-text .page-title-up {
+      width: 400px;
+      
+    }
+}
+@media(max-width: 500px) {
+  .aboutcompany-header .header-text .page-title-up {
+      width: max-content;
+      padding-left: 70px;
+      padding-right: 70px;
+      
+    }
+}
+
+@media (max-width: 600px) {
+  .aboutcompany-header .header-text {
+    min-height: auto;
+  }
+}
+
+.aboutcompany-header .header-text p {
+  font-weight: bold;
+  max-width: 700px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 2;
+  color: var(--textSecundColor);
+}
+
+@media (max-width: 600px) {
+  .aboutcompany-header .header-text p {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .aboutcompany-header .header-text p {
+    font-size: 14px;
+  }
+}
+
+/* End Header */
+
+/* Start Company Sections */
+.company-sections {
+  padding: 5px 0;
+  background-color: #FCFCFC;
+}
+.company-box {
+  background-color: #fff;
+  padding: 70px 0;
+  margin: 50px 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+@media(max-width:991px) {
+  .company-box {
+    padding: 30px ;
+  }
+  .company-box .order-mobile-1 {
+    order: 1;
+  }
+  .company-box .order-mobile-2 {
+    order: 2;
+  }
+}
+.company-box .text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.company-box .text p {
+  padding-right: 70px;
+  line-height: 1.7;
+  font-size: 15px;
+}
+@media(max-width: 991px) {
+  .company-box .text p {
+    padding-right: 0;
+  }
+}
+.company-box .img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+
+.company-box .img img {
+  width: 100%;
+}
+/* End Company Sections */
+
+/* Start Our Mission */
+.our-mission {
+  background-color: #03C3FF;
+  padding: 50px 0 20px;
+}
+.our-mission .section-title {
+  color: #fff;
+  margin-bottom: 0;
+}
+.our-mission .section-title.vis-title {
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+.our-mission p {
+  color: #EFFBFF;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+@media(max-width: 991px) {
+  .our-mission p {
+    text-align: right;
+  }
+}
+.our-mission .img {
+  width: 450px;
+  margin: 50px auto;
+  text-align: center;
+}
+@media(max-width: 500px) {
+  .our-mission .img {
+    width: auto;
+  }
+}
+.our-mission .img img {
+  width: 100%;
+}
+/* End Our Mission */
+
+/* Start With Us Section */
+.with-us {
+  background-color: #FCFCFC;
+  padding: 70px 0;
+}
+.with-us-content {
+  max-width: 890px;
+  margin: auto;
+  
+}
+.with-us-content .up-right-quote,
+.with-us-content .down-left-quote {
+width: 70px;
+display: block;
+}
+.with-us-content .up-right-quote {
+margin-left: auto;
+margin-bottom: 20px;
+}
+.with-us-content .down-left-quote {
+margin-right: auto;
+margin-top: 20px;
+}
+.with-us-content h2 {
+  color: #03C3FF;
+  text-align: center;
+  font-size: 3vh;
+  font-weight: bold;
+  line-height: 1.7;
+  margin: 0;
+}
+/* End With Us Section */
+
+/* Start Company Clients */
+.company-clients {
+  padding: 50px 0 0;
+  background-color: #fff;
+}
+.company-clients .section-title {
+  margin-bottom: 0;
+}
+.company-clients p {
+  text-align: center;
+  color: #3C414B;
+}
+.company-clients .clients-container {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.company-clients .clients-container .client {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(112, 112, 112, .5);
+  cursor: pointer;
+ 
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: var(--mainTransitionTim);
+  -webkit-transition: var(--mainTransitionTim);
+  -moz-transition: var(--mainTransitionTim);
+  -ms-transition: var(--mainTransitionTim);
+  -o-transition: var(--mainTransitionTim);
+}
+@media(max-width: 500px) {
+  .company-clients .clients-container .client {
+    margin: 0 auto 40px auto;
+  }
+}
+
+.company-clients .clients-container .client.jad,
+.company-clients .clients-container .client.sara,
+.company-clients .clients-container .client.abkry,
+.company-clients .clients-container .client.vivid,
+.company-clients .clients-container .client.prem {
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.company-clients .clients-container .client.jad{
+  background-image: url("../assets/about-company/jad-gray.png");
+}
+.company-clients .clients-container .client.jad:hover{
+  background-image: url("../assets/about-company/jad.png");
+}
+
+.company-clients .clients-container .client.sara{
+  background-image: url("../assets/about-company/saraa-gray.png");
+}
+.company-clients .clients-container .client.sara:hover{
+   background-image: url("../assets/about-company/saraa.png");
+}
+
+.company-clients .clients-container .client.abkry{
+  background-image: url("../assets/about-company/3abkary-gray.png");
+}
+.company-clients .clients-container .client.abkry:hover{
+  background-image: url("../assets/about-company/3abkary.png");
+
+}
+
+.company-clients .clients-container .client.vivid{
+  background-image: url("../assets/about-company/vivid-gray.png");
+}
+.company-clients .clients-container .client.vivid:hover{
+  background-image: url("../assets/about-company/vivid.png");
+
+}
+
+.company-clients .clients-container .client.prem{
+  background-image: url("../assets/about-company/premium-gray.png");
+
+}
+.company-clients .clients-container .client.prem:hover{
+  background-image: url("../assets/about-company/premium.png");
+
+}
+/* End Company Clients */
+

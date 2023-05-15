@@ -1,0 +1,160 @@
+/* Start Contact Us  */
+.contact-us-pge {
+  margin: 200px auto 100px;
+  max-width: 900px;
+}
+.contact-us-pge .section-title {
+  text-align: right;
+  font-size: 2vh;
+}
+@media(max-width:600px) {
+  .contact-us-pge .section-title {
+    max-width: 100%;
+  }
+}
+.contact-us-pge p {
+  color: #2E2E2E;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.contact-us-pge form {
+
+  margin-top: 35px;
+}
+.contact-us-pge form input,
+.contact-us-pge form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #FCFCFC ;
+  border: 1px solid #98A3BA78;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.contact-us-pge form input:focus,
+.contact-us-pge form textarea:focus {
+  outline-color: #03C3FF;
+}
+
+.contact-us-pge form textarea  {
+  min-height: 100px;
+}
+.contact-us-pge form button[type= "submit"] {
+  position: relative;
+  background-color: #0071BC;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+      display: flex;
+    align-items: center;
+    justify-content: end;
+  min-width: 300px;
+  min-height: 56px;
+  margin-right: auto;
+  font-size: 16px;
+  border: 1px solid #0071BC;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: var(--mainTransitionTim);
+  -webkit-transition: var(--mainTransitionTim);
+  -moz-transition: var(--mainTransitionTim);
+  -ms-transition: var(--mainTransitionTim);
+  -o-transition: var(--mainTransitionTim);
+}
+@media(max-width:991px) {
+  .contact-us-pge form button[type= "submit"] {
+    margin: auto;
+  }
+}
+.contact-us-pge form button[type= "submit"] .img {
+  display: block;
+  width: 25px;
+  height: 20px;
+  margin-right: 85px;
+  background-image: url("../assets/contact-us-page/subscrib-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.contact-us-pge form button[type= "submit"]::before {
+    position: absolute;
+    content: "ارسال ";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-us-pge form button[type= "submit"]:hover {
+  background-color: #29ABE2;
+  border-color: #29ABE2;
+}
+.contact-us-pge form button[type= "submit"]:hover .img {
+  background-image: url("../assets/contact-us-page/arrow-left.svg");
+  background-size: 20px;
+  
+}
+.contact-us-pge form button[type= "submit"]:focus {
+  background-color: #4AC959;
+  border-color: #4AC959;
+}
+.contact-us-pge form button[type= "submit"]:focus::before {
+  content: "نجاح الارسال";
+}
+.contact-us-pge form button[type= "submit"]:focus .img{
+    background-image: url("../assets/contact-us-page/success.svg");
+    margin-right: 55px;
+    background-size: 30px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+.form-phone {
+  position: relative;
+}
+.select-country {
+  direction: rtl;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 0px 15px;
+  border: none;
+  background-color: #EFEFEF;
+  color: #707070;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.select-country:focus {
+  border: none;
+  outline: none;
+}
+
+.select-country *
+{
+  border: none;
+  outline: none;
+ border-radius: 15px;
+ background-color: #EFEFEF;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ -ms-border-radius: 15px;
+ -o-border-radius: 15px;
+}
+
+/* End Contact Us  */

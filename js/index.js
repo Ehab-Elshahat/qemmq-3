@@ -4,10 +4,10 @@
 let loaderContainer = document.querySelector(".loader-container");
 let page = document.documentElement;
 window.addEventListener("load", () => {
-
+  
     loaderContainer.style.display = "none";
     page.style.overflowY = "auto";
- 
+  
 });
 
 // Scroll Top Btn
@@ -179,14 +179,14 @@ let titles = document.querySelectorAll(
   ".overlay .container .overlay-l ul li h2"
 );
 let bgImages = [
-  "../assets/marketing-page/manazel.png",
-  "../assets/marketing-page/vesuvio.png",
-  "../assets/marketing-page/trackmat.png",
-  "../assets/marketing-page/ta3lam.png",
-  "../assets/marketing-page/urmoney.png",
+  "../assets/marketing-page/manazel.jpg",
+  "../assets/marketing-page/vesuvio.jpg",
+  "../assets/marketing-page/trackmat.jpg",
+  "../assets/marketing-page/ta3lam.jpg",
+  "../assets/marketing-page/urmoney.jpg",
 ];
 titles.forEach((title, index) => {
-  title.addEventListener("mouseover", () => {
+  title.addEventListener("click", () => {
     ourWorkSection.style.backgroundImage = "url(" + bgImages[index] + ")";
   });
 });
@@ -196,7 +196,7 @@ titles.forEach((title, index) => {
 let serTitles = document.querySelectorAll(".ser-r-titles");
 let serBoxes = document.querySelectorAll(".ser-l");
 serTitles.forEach((title, index) => {
-  title.addEventListener("mouseover", () => {
+  title.addEventListener("click", () => {
     serTitles.forEach((tit) => tit.classList.remove("active"));
     title.classList.add("active");
     serBoxes.forEach((box) => {
