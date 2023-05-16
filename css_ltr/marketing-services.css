@@ -218,7 +218,7 @@
 .ser-r .ser-r-titles.active,
 .ser-r .ser-r-titles:hover {
   color: var(--headingSectionsColor);
-  font-size: 2.2vh;
+ 
   background-color: #f1f8ff;
 }
 .ser-l {

@@ -1,7 +1,12 @@
 /* Start Contact Us  */
 .contact-us-pge {
-  margin: 200px auto 100px;
+  margin: 160px auto 25px;
   max-width: 900px;
+}
+@media(max-width:991px) {
+  .contact-us-pge {
+    margin-top: 160px  ;
+  }
 }
 .contact-us-pge .section-title {
   text-align: right;
@@ -46,7 +51,7 @@
   position: relative;
   background-color: #0071BC;
   color: #fff;
-  font-weight: bold;
+
   padding: 15px;
       display: flex;
     align-items: center;
@@ -124,37 +129,55 @@
 }
 .form-phone {
   position: relative;
+  
 }
-.select-country {
-  direction: rtl;
+.custom-select {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  padding: 0px 15px;
-  border: none;
-  background-color: #EFEFEF;
-  color: #707070;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  right: 5px;
+  top: 8px;
+  display: flex;
+  justify-content: center;
+  
 }
-.select-country:focus {
+.custom-select::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color:#98A3BA78;
+  left: -20px;
+}
+.select-box {
+  cursor: pointer;
+  font-size: 14px;
+  direction: ltr;
   border: none;
+  appearance: none;
+  padding: 0 30px 0 15px;
+  width: 100%;
+  color: #707070;
+  background-color: #EFEFEF;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+}
+.select-box:focus {
   outline: none;
 }
 
-.select-country *
-{
-  border: none;
-  outline: none;
- border-radius: 15px;
- background-color: #EFEFEF;
- -webkit-border-radius: 15px;
- -moz-border-radius: 15px;
- -ms-border-radius: 15px;
- -o-border-radius: 15px;
+.custom-select .icon-container {
+  cursor: pointer;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 12px;
+  top: 11px;
+  z-index: 0;
 }
 
 /* End Contact Us  */

@@ -1,7 +1,12 @@
 /* Start Contact Us  */
 .contact-us-pge {
-  margin: 200px auto 100px;
+  margin: 160px auto 25px;
   max-width: 900px;
+}
+@media(max-width:991px) {
+  .contact-us-pge {
+    margin-top: 160px  ;
+  }
 }
 .contact-us-pge .section-title {
   text-align: right;
@@ -23,6 +28,7 @@
 }
 .contact-us-pge form input,
 .contact-us-pge form textarea {
+  font-size: 14px;
   width: 100%;
   padding: 15px;
   margin-bottom: 15px;
@@ -46,7 +52,7 @@
   position: relative;
   background-color: #0071BC;
   color: #fff;
-  font-weight: bold;
+  
   padding: 15px;
       display: flex;
     align-items: center;
@@ -114,37 +120,59 @@
 }
 .form-phone {
   position: relative;
+  
 }
-.select-country {
-  direction: ltr;
+.custom-select {
   position: absolute;
-  left: 10px;
-  top: 10px;
-  padding: 0px 15px;
-  border: none;
-  background-color: #EFEFEF;
-  color: #707070;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  left: 5px;
+  top: 8px;
+  display: flex;
+  justify-content: center;
+  
 }
-.select-country:focus {
+.custom-select::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color:#98A3BA78;
+  right: -20px;
+}
+.select-box {
+  cursor: pointer;
+  font-size: 14px;
+  direction: ltr;
   border: none;
+  appearance: none;
+  padding: 0 30px 0 15px;
+  width: 100%;
+  color: #707070;
+  background-color: #EFEFEF;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+}
+.select-box:focus {
   outline: none;
 }
-.select-country option {
-  color: #707070;
-  background-color: #EFEFEF;
-  border: 1px solid #EFEFEF;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+
+.custom-select .icon-container {
+  cursor: pointer;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 12px;
+  top: 11px;
+  z-index: 0;
 }
+
 
 
 
 /* End Contact Us  */
+

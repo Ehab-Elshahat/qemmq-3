@@ -4,7 +4,7 @@
 /* Start Header */
 .aboutcompany-header {
   padding-top: 170px;
-  background: #fff url("../assets/home-page/header-bg.png") ;
+  background-image: url("../assets/home-page/header-bg.svg");
   background-size: cover;
   background-position: center 130px;
   background-repeat: no-repeat;
