@@ -75,7 +75,7 @@
 .overlay {
   position: relative;
   height: 100%;
-  background-color: rgba(0 0 0 / 70%);
+  background-color: rgba(0 0 0 / 50%);
 }
 .overlay .container {
   padding: 100px 0;
@@ -100,7 +100,15 @@
   font-size: 3.5vh;
   font-weight: normal;
 }
-.overlay .container .see-more-projects,
+
+@media(max-width:767px) {
+  .overlay .container .overlay-r h2 {
+  text-align: right;
+  position: relative;
+  top: -50px;
+}
+}
+
 .overlay .container .overlay-r .see-more-projects {
   background-color: transparent;
   display: flex;
@@ -121,14 +129,20 @@
   -moz-transition: var(--mainTransitionTim);
   -ms-transition: var(--mainTransitionTim);
   -o-transition: var(--mainTransitionTim);
-}
-
-.overlay .container .see-more-projects {
   display: none;
 }
+
+
 @media (max-width: 767px) {
-  .overlay .container .overlay-r .see-more-projects.large {
-    display: none;
+  .overlay .container .overlay-r .see-more-projects {
+    position: absolute;
+    bottom: 60px;
+    right: 50%;
+    transform: translate(50%);
+    -webkit-transform: translate(50%);
+    -moz-transform: translate(50%);
+    -ms-transform: translate(50%);
+    -o-transform: translate(50%);
   }
   .overlay .container .see-more-projects {
     display: flex;
@@ -146,6 +160,12 @@
   flex-direction: column;
   justify-content: center;
 }
+@media(max-width: 767px) {
+  .overlay .container .overlay-l {
+    position: relative;
+    top: -80px;
+  }
+}
 .overlay .container .overlay-l ul li h2 {
   color: #fff;
   font-size: 4vh;
@@ -160,7 +180,8 @@
 
   transform-origin: left;
 }
-.overlay .container .overlay-l ul li h2:hover {
+.overlay .container .overlay-l ul li h2:hover,
+.overlay .container .overlay-l ul li h2.active {
   color: var(--hover-03c3ff);
   transform: scale(1.3);
   -webkit-transform: scale(1.3);
@@ -171,6 +192,10 @@
 /* End From Our Work */
 
 /* Start Services  */
+.the-services {
+  margin-top: 80px;
+}
+
 .the-services .row {
   height: 380px;
 }
@@ -218,7 +243,7 @@
 .ser-r .ser-r-titles.active,
 .ser-r .ser-r-titles:hover {
   color: var(--headingSectionsColor);
- 
+
   background-color: #f1f8ff;
 }
 .ser-l {

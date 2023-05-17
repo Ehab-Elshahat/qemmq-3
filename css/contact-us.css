@@ -124,13 +124,19 @@
 }
 .custom-select {
   position: absolute;
-  width: 120px;
-  height: 40px;
-  left: 5px;
+ 
+  width: 100px;
+  height: 37px;
+  left: 8px;
   top: 8px;
+  background-color: #EFEFEF;
+  padding-right: 10px;
   display: flex;
-  justify-content: center;
-  
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .custom-select::before {
   content: "";
@@ -141,38 +147,24 @@
   right: -20px;
 }
 .select-box {
+  padding-left: 5px;
   cursor: pointer;
   font-size: 14px;
   direction: ltr;
   border: none;
-  appearance: none;
-  padding: 0 30px 0 15px;
   width: 100%;
   color: #707070;
   background-color: #EFEFEF;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  
 }
 .select-box:focus {
   outline: none;
 }
-
-.custom-select .icon-container {
-  cursor: pointer;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  right: 12px;
-  top: 11px;
-  z-index: 0;
-}
-
-
-
 
 /* End Contact Us  */
 
