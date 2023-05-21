@@ -36,6 +36,12 @@
 /* Style Contact Us Page */
 @import "./contact-us.css";
 
+/* Style Programs Testing Page */
+@import "./programs-testing.css";
+
+/* Style consulting-info-tech Page */
+@import "./consulting-info-tech.css";
+
 
 
 html {

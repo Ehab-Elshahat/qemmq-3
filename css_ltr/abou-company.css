@@ -82,7 +82,7 @@
 }
 .company-box {
   background-color: #fff;
-  padding: 70px 0;
+  padding: 20px 0;
   margin: 50px 0;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -299,6 +299,9 @@ margin-top: 20px;
   width: 165px;
   height: 150px;
   margin: 0 10px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid rgb(112, 112, 112, .5);
   cursor: pointer;
  
@@ -307,78 +310,16 @@ margin-top: 20px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  transition: var(--mainTransitionTim);
-  -webkit-transition: var(--mainTransitionTim);
-  -moz-transition: var(--mainTransitionTim);
-  -ms-transition: var(--mainTransitionTim);
-  -o-transition: var(--mainTransitionTim);
+ 
 }
-
-
-.company-clients .clients-container .client.jad,
-.company-clients .clients-container .client.sara,
-.company-clients .clients-container .client.abkry,
-.company-clients .clients-container .client.vivid,
-.company-clients .clients-container .client.prem,
-.company-clients .clients-container .client.manazel ,
-.company-clients .clients-container .client.vesuvio {
-  background-repeat: no-repeat;
-  background-position: center;
-
+.company-clients .clients-container .client .color-img {
+  display: none;
 }
-.company-clients .clients-container .client.jad{
-  background-image: url("../assets/about-company/jad-gray.png");
+.company-clients .clients-container .client:hover .color-img {
+  display: block;
 }
-.company-clients .clients-container .client.jad:hover{
-  background-image: url("../assets/about-company/jad.png");
-}
-
-.company-clients .clients-container .client.sara{
-  background-image: url("../assets/about-company/saraa-gray.png");
-}
-.company-clients .clients-container .client.sara:hover{
-   background-image: url("../assets/about-company/saraa.png");
-}
-
-.company-clients .clients-container .client.abkry{
-  background-image: url("../assets/about-company/3abkary-gray.png");
-}
-.company-clients .clients-container .client.abkry:hover{
-  background-image: url("../assets/about-company/3abkary.png");
-
-}
-
-.company-clients .clients-container .client.vivid{
-  background-image: url("../assets/about-company/vivid-gray.png");
-}
-.company-clients .clients-container .client.vivid:hover{
-  background-image: url("../assets/about-company/vivid.png");
-
-}
-
-.company-clients .clients-container .client.prem{
-  background-image: url("../assets/about-company/premium-gray.png");
-
-}
-.company-clients .clients-container .client.prem:hover{
-  background-image: url("../assets/about-company/premium.png");
-
-}
-.company-clients .clients-container .client.manazel{
-  background-image: url("../assets/about-company/manzel-gray.png");
-
-}
-.company-clients .clients-container .client.manazel:hover{
-  background-image: url("../assets/about-company/manzel.png");
-
-}
-.company-clients .clients-container .client.vesuvio{
-  background-image: url("../assets/about-company/vesuvio-gray.png");
-
-}
-.company-clients .clients-container .client.vesuvio:hover{
-  background-image: url("../assets/about-company/vesuvio.png");
-
+.company-clients .clients-container .client:hover .gray-img {
+  display: none;
 }
 
 /* End Company Clients */
