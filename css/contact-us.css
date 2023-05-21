@@ -21,16 +21,17 @@
   color: #2E2E2E;
   font-size: 14px;
   line-height: 1.7;
+  margin-bottom: 10px;
 }
 .contact-us-pge form {
 
-  margin-top: 35px;
+  margin-top: 20px;
 }
 .contact-us-pge form input,
 .contact-us-pge form textarea {
-  font-size: 14px;
+  font-size: 12px;
   width: 100%;
-  padding: 15px;
+  padding: 8px 10px;
   margin-bottom: 15px;
   background-color: #FCFCFC ;
   border: 1px solid #98A3BA78;
@@ -46,7 +47,7 @@
 }
 
 .contact-us-pge form textarea  {
-  min-height: 100px;
+  min-height: 80px;
 }
 .contact-us-pge form button[type= "submit"] {
   position: relative;
@@ -125,10 +126,10 @@
 .custom-select {
   position: absolute;
  
-  width: 100px;
-  height: 37px;
+  width: 80px;
+  height: 24px;
   left: 8px;
-  top: 8px;
+  top: 6px;
   background-color: #EFEFEF;
   padding-right: 10px;
   display: flex;
@@ -144,12 +145,12 @@
   width: 1px;
   height: 100%;
   background-color:#98A3BA78;
-  right: -20px;
+  right: -10px;
 }
 .select-box {
   padding-left: 5px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 12px;
   direction: ltr;
   border: none;
   width: 100%;
