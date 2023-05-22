@@ -173,8 +173,8 @@
 }
  .contact-us-ourwork .contact-us a {
   position: relative;
-  width: 300px;
-  height: 60px;
+  width: 200px;
+  height: 50px;
   margin: 30px auto 30px 0;
   
   text-decoration: none;
@@ -184,7 +184,7 @@
   justify-content: center;
   color: #fff;
   border-radius: 6px;
-  font-size: 18px;
+  font-size: 16px;
   transition: var(--mainTransitionTim);
   -webkit-transition: var(--mainTransitionTim);
   -moz-transition: var(--mainTransitionTim);
