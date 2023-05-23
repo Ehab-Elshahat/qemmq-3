@@ -4,10 +4,8 @@
 let loaderContainer = document.querySelector(".loader-container");
 let page = document.documentElement;
 window.addEventListener("load", () => {
-  
-    loaderContainer.style.display = "none";
-    page.style.overflowY = "auto";
-  
+  loaderContainer.style.display = "none";
+  page.style.overflowY = "auto";
 });
 
 // Scroll Top Btn
@@ -58,12 +56,12 @@ document.addEventListener("keydown", (e) => {
 // Go To Page On Click a Link
 
 let dropLinks = document.querySelectorAll(".go-to-page");
-dropLinks.forEach(link => {
-  link.addEventListener("click", (e)=> {
-    e.preventDefault()
-    window.location.href = link.getAttribute("href")
-  })
-})
+dropLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.href = link.getAttribute("href");
+  });
+});
 
 // Close Navbar in Small Screen
 let closeNav = document.querySelector(".close-nav");
@@ -85,49 +83,47 @@ handelPosition();
 
 // Active box image Home Slider our services
 let inputRadio = document.querySelectorAll(".bolits");
-let cards = document.querySelectorAll("label")
+let cards = document.querySelectorAll("label");
 
-cards.forEach(card => {
-  card.addEventListener("click", ()=> {
-   card.click()
+cards.forEach((card) => {
+  card.addEventListener("click", () => {
+    card.click();
     displayActive();
-  })
+  });
 });
 
-inputRadio.forEach(input => {
-  input.addEventListener("click", ()=> {
+inputRadio.forEach((input) => {
+  input.addEventListener("click", () => {
     displayActive();
-  })
-})
+  });
+});
 
-function displayActive(){
+function displayActive() {
   inputRadio.forEach((input) => {
-      if (input.checked) {
-        let inputId = input.getAttribute("id");
-        
-        let activeCardBoxItem = document.querySelectorAll(`label[for='${inputId}'] .card .box-item`);
-        activeCardBoxItem.forEach((box) => {
-        
-          box.children[0].style.display = "none"
-      box.children[1].style.display = "block"
+    if (input.checked) {
+      let inputId = input.getAttribute("id");
 
-        });
-      } else {
-        let inputId = input.getAttribute("id");
+      let activeCardBoxItem = document.querySelectorAll(
+        `label[for='${inputId}'] .card .box-item`
+      );
+      activeCardBoxItem.forEach((box) => {
+        box.children[0].style.display = "none";
+        box.children[1].style.display = "block";
+      });
+    } else {
+      let inputId = input.getAttribute("id");
 
-        let activeCardBoxItem = document.querySelectorAll(
-          `label[for='${inputId}'] .card .box-item`
-        );
-        activeCardBoxItem.forEach((box) => {
-          box.children[0].style.display = "block"
-          box.children[1].style.display = "none"
-        });
-      }
-    });
+      let activeCardBoxItem = document.querySelectorAll(
+        `label[for='${inputId}'] .card .box-item`
+      );
+      activeCardBoxItem.forEach((box) => {
+        box.children[0].style.display = "block";
+        box.children[1].style.display = "none";
+      });
+    }
+  });
 }
-displayActive()
-
-
+displayActive();
 
 // Stop Click Event On DropDown
 let navItemDropdown = document.querySelector(".nav-item.dropdown ");
@@ -207,42 +203,45 @@ serTitles.forEach((title, index) => {
 });
 
 // Consulting Page
-let conTitles = document.querySelectorAll(".cons-content aside h3"); 
-let scrollDiv = document.querySelector(".left");
+let titleContainer = document.querySelector(".cons-content aside");
+let conTitles = document.querySelectorAll(".cons-content aside h3");
+
 let contents = document.querySelectorAll(".content");
 
-conTitles[0].addEventListener("click",()=> {
-  scrollDiv.scrollTo(0,0)
-})
-conTitles[1].addEventListener("click",()=> {
-  scrollDiv.scrollTo(0,350)
-})
-conTitles[2].addEventListener("click",()=> {
-  scrollDiv.scrollTo(0,1160)
-})
+conTitles[0].addEventListener("click", () => {
+  window.scrollTo(0, 300);
+});
+conTitles[1].addEventListener("click", () => {
+  window.scrollTo(0, 950);
+});
+conTitles[2].addEventListener("click", () => {
+  window.scrollTo(0, 1930);
+});
 
+window.addEventListener("scroll", () => {
+  let scrollValu = window.pageYOffset;
+  if (scrollValu > 220) {
+    titleContainer.classList.add("fixed");
+  } else {
+    titleContainer.classList.remove("fixed");
+  }
+  if (scrollValu >= 2250) {
+    titleContainer.classList.remove("fixed");
+  }
 
-
-scrollDiv.addEventListener("scroll",()=> {
-
- let scrollValu = scrollDiv.scrollTop;
-
- if(scrollValu >= 0 ) {
-  conTitles[0].classList.add("active", "b")
- } else {
-  conTitles[0].classList.remove("active", "b");
- }
- if (scrollValu >= 350) {
-   conTitles[1].classList.add("active", "b");
- } else {
-   conTitles[1].classList.remove("active", "b");
- }
- if (scrollValu >= 1160) {
-   conTitles[2].classList.add("active", "b");
- } else {
-   conTitles[2].classList.remove("active", "b");
- }
-
-
-
-})
+  if (scrollValu >= 300) {
+    conTitles[0].classList.add("active", "b");
+  } else {
+    conTitles[0].classList.remove("active", "b");
+  }
+  if (scrollValu >= 950) {
+    conTitles[1].classList.add("active", "b");
+  } else {
+    conTitles[1].classList.remove("active", "b");
+  }
+  if (scrollValu >= 1930) {
+    conTitles[2].classList.add("active", "b");
+  } else {
+    conTitles[2].classList.remove("active", "b");
+  }
+});

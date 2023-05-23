@@ -111,7 +111,7 @@ body {
 }
 .nav-item .nav-link {
   padding: 8px 15px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   transition: var(--mainTransitionTim);
   -webkit-transition: var(--mainTransitionTim);
@@ -319,7 +319,7 @@ body {
 
 .navbar-expand-lg .navbar-nav .dropdown-menu ul li .go-to-page h6,
 .navbar-expand-lg .navbar-nav .dropdown-menu ul li.ask-us-dropdown h6 {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;
   color: #6c6c6c;
   margin-bottom: 0;
@@ -673,6 +673,9 @@ footer .d-grid {
 .subscrip-box {
   grid-area: subscrip-box;
 }
+.subscrip-box form p {
+  font-size: 14px;
+}
 
 .our-serv-list ul li a {
   white-space: nowrap;
@@ -694,9 +697,10 @@ footer ul li a {
   text-decoration: none;
 }
 footer ul li {
-  font-size: 13px;
+  font-size: 14px;
 }
 footer ul li a {
+    font-size: 14px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -777,6 +781,7 @@ footer ul {
   padding: 0;
 }
 .footer-box .logo {
+  width: 70px;
   margin-bottom: 20px;
   transform: var(--mainTransitionTim);
   -webkit-transform: var(--mainTransitionTim);
@@ -784,12 +789,12 @@ footer ul {
   -ms-transform: var(--mainTransitionTim);
   -o-transform: var(--mainTransitionTim);
 }
-.footer-box .logo.hide {
-  opacity: 0;
+.footer-box .logo img {
+  width: 100%;
 }
 
 .footer-box p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 2;
 }
 
@@ -835,7 +840,7 @@ footer .social ul li {
 
 .subscrip-input,
 .subscrip-btn {
-  font-size: 12px;
+  font-size: 14px;
   padding: 5px 10px;
   border-radius: 3px !important;
   -webkit-border-radius: 3px !important;
@@ -855,7 +860,7 @@ footer .social ul li {
 .subscrip-btn {
   display: flex;
   align-items: center;
-
+font: 14px;
   width: 77px;
   padding: 10px;
   background-color: #0071bc;
@@ -872,7 +877,7 @@ footer .social ul li {
   color: var(--textLight);
 }
 .subscrip-btn img {
-  width: 6px;
+  width: 9px;
   margin-left: 5px;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);

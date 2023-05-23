@@ -5,8 +5,8 @@
  */
 
 .programs-testing-header {
-  height: 90vh;
-  padding-top: 195px;
+  height: 80vh;
+  padding-top: 120px;
   background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
@@ -16,16 +16,20 @@
 }
 @media (max-width: 991px) {
   .programs-testing-header {
-    height: auto;
+    padding-top: 200px;
+   height: auto;
   }
 }
 .programs-testing-header .row {
   align-items: center;
 }
+.programs-testing-header .header-r {
+  margin-bottom: -60px;
+}
 .programs-testing-header .header-r h1 {
   margin: auto;
-  width: max-content;
-  padding: 15px 150px;
+ max-width: 550px;
+  padding: 15px 100px;
 }
 
 @media (max-width: 991px) {
@@ -34,49 +38,40 @@
   }
 }
 
-@media (max-width: 600px) {
-  .programs-testing-header .header-r h1 {
-    padding: 15px 100px;
-  }
-}
+
 .programs-testing-header .header-r p {
-  max-width: 700px;
+  max-width: 550px;
   font-weight: bold;
   text-align: center;
-  font-size: 18px;
-  margin: 40px auto;
+  font-size: 16px;
+  margin: 20px auto;
   line-height: 2;
   color: #3c414b;
-}
-@media (max-width: 500px) {
-  .programs-testing-header .header-r p {
-    font-size: 16px;
-  }
+  
 }
 
-.programs-testing-header .container .col-lg-4 {
-  margin-top: -100px;
-}
+
+
 .programs-testing-header .header-l {
-  width: 400px;
+  max-width: 400px;
   margin: auto;
 }
 @media (max-width: 991px) {
   .programs-testing-header .header-l {
-    left: 0;
-    bottom: 0;
-    margin: 40px auto 0;
+    
+    margin: 20px auto 40px;
   }
-  .programs-testing-header .container .col-lg-4 {
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
+  
 }
 /* End Header */
 
 /* Start Programs Test Content */
 .page-body {
   background-color: #fcfcfc;
+
+}
+.page-body.pt-5 {
+  padding-top: 0 !important;
 }
 /* End Programs Test Content */
 
@@ -115,8 +110,8 @@
   margin: 20px 0 30px;
 }
 .test-prog-opra .test-boxes .test-box .test-box-icon {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   display: block;
   margin: 0 auto 25px auto;
 }
@@ -127,9 +122,9 @@
 .test-prog-opra .test-boxes .test-box .list-unstyled li {
   position: relative;
   margin-bottom: 10px;
-  line-height: 1.7;
+  line-height: 2;
   margin-right: 30px;
-  font-size: 14px;
+  font-size: 15px;
 }
 .test-prog-opra .test-boxes .test-box .list-unstyled li::before {
   position: absolute;
@@ -205,8 +200,8 @@
 }
 .option-services .options-boxs .option-box {
   position: relative;
-  max-height: 335px;
-  padding: 30px;
+  max-height: 3050px;
+  padding: 30px 15px;
   color: #fff;
   border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -269,7 +264,7 @@
   text-align: center;
 }
 .option-services .options-boxs .option-box .box-desc {
-  font-size: 14px;
+  font-size: 15px;
 
   line-height: 2;
 }
@@ -292,7 +287,7 @@
   justify-content: center;
   color: #29abe2;
   border-radius: 6px;
-  font-size: 18px;
+  font-size: 15px;
   transition: var(--mainTransitionTim);
   -webkit-transition: var(--mainTransitionTim);
   -moz-transition: var(--mainTransitionTim);
@@ -306,12 +301,12 @@
   color: #fff;
 }
 .speek-to-team a .img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background-image: url("../assets/programs-testing/arrow.png");
   background-repeat: no-repeat;
   position: relative;
-  top: 8px;
+  top: 6px;
   transition: var(--mainTransitionTim);
   -webkit-transition: var(--mainTransitionTim);
   -moz-transition: var(--mainTransitionTim);
