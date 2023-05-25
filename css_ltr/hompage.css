@@ -1,13 +1,20 @@
 /** @format */
 
+body {
+  background-image: url("../assets/home-page/header-bg.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 120px;
+}
 
 /* Start Header */
 .home-page-header {
   padding-top: 100px;
-  background-image: url("../assets/home-page/header-bg.png");
-  background-size: cover;
+  /* background-image: url("../assets/home-page/header-bg.png"); */
+  /* background-size: cover;
   background-position: center 130px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 @media(max-width: 991px) {
   .home-page-header {
@@ -18,8 +25,8 @@
     text-align: center;
     max-width: max-content;
     margin: auto;
-    margin-top: 130px;
-    padding-bottom: 70px;
+    margin-top: 140px;
+  padding-bottom: 100px;
 }
 @media (max-width: 991px) {
   .home-page-header .header-text {
@@ -109,16 +116,27 @@
 @media (max-width: 991px) {
   .home-page-header .header-text p {
     width: auto;
-    font-size: 14px;
+   
   }
 }
 
 /* End Header */
 
 /* Start Our Services */
+.bg {
+  background-color: #fff;
+}
 .our-services {
   overflow-x: hidden;
   background-color: var(--unnamed-color-d9f2f2);
+}
+.our-services.my-3,
+.software-development.my-3,
+.how-we-work.my-3,
+.our-work-home.mt-3,
+.our-work-home.mb-5 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 .our-services .section-title-with-line h2 {
   margin-bottom: 15px;
@@ -134,14 +152,10 @@
   background-position: top left;
 }
 
-@media (max-width: 767px) {
-  .software-development {
-    /* background-size: 7% 50%; */
-  }
-}
+
 @media (max-width: 600px) {
   .software-development {
-    /* background-size: 10% 50%; */
+  
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -276,8 +290,18 @@
   left: 12px;
 }
 
+.carousel {
+  position: relative;
+ 
+}
+
 .carousel-indicators {
-  bottom: -85px;
+  bottom: -60px;
+}
+@media (max-width: 991px) {
+  .carousel-indicators {
+    bottom: -50px;
+  }
 }
 .carousel-indicators [data-bs-target] {
   display: inline-block;
@@ -431,8 +455,7 @@
 }
 .our-work-desc .desc-bottom a:hover {
   background: transparent
-    linear-gradient(257deg, #273a95 0%, #283f98 3%, #4dc7ed 100%) 0% 0%
-    no-repeat padding-box;
+    linear-gradient(257deg, #273a95 0%, #283f98 3%, #4dc7ed 100%);
 }
 
 .our-work-img {
@@ -447,6 +470,7 @@
 }
 .our-work-img.one {
   background-image: url("../assets/home-page/our-work-section/vesuvio.jpg");
+  
 }
 .our-work-img.tow {
   background-image: url("../assets/home-page/our-work-section/trackmate.jpg");
@@ -479,6 +503,7 @@
   }
 }
 .our-experience .exper-box {
+   background-color: #fff;
   min-height: 160px;
   padding: 15px;
   border: 1px solid var(--hover-03c3ff);
@@ -527,6 +552,7 @@
 
 /* Start Tools And Langu */
 .tools-lang-box {
+   background-color: #fff;
   margin: auto;
   margin-bottom: 22px;
   overflow: hidden;
@@ -553,8 +579,7 @@
   border-bottom-color: var(--hover-03c3ff);
 }
 .tools-lang-box .tools-box-img {
-  background: transparent linear-gradient(0deg, #8999e429 0%, #4dc7ed14 100%) 0%
-    0% no-repeat;
+  background: transparent linear-gradient(0deg, #8999e429 0%, #4dc7ed14 100%);
   text-align: center;
   margin-bottom: 10px;
 }

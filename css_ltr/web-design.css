@@ -6,13 +6,13 @@
 
 .web-des-header {
   height: 80vh;
-  padding-top: 100px;
-  background-image: url("../assets/home-page/header-bg.png");
+  padding-top: 200px;
+  /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 @media (max-width: 991px) {
   .web-des-header {
@@ -74,15 +74,15 @@
 /* End Header */
 
 /* Start large box */
-.large-box {
-  background-color: #fcfcfc;
+.large-box-web {
+ 
 }
 @media(max-width: 991px) {
- .large-box{
+ .large-box-web{
   margin-top: 60px !important;
  } 
 }
-.large-box .large-box-text {
+.large-box-web .large-box-text {
   position: relative;
   min-height: 200px;
   padding: 25px;
@@ -95,16 +95,16 @@
   z-index: 1;
 }
 @media (max-width: 991px) {
-  .large-box .large-box-text {
+  .large-box-web .large-box-text {
     padding: 40px;
   }
 }
-.large-box .large-box-text p {
+.large-box-web .large-box-text p {
   font-size: 16px;
   color: #dfffff;
   line-height: 1.7;
 }
-.large-box .bg-img {
+.large-box-web .bg-img {
   position: absolute;
   right: -60px;
   top: 50%;
@@ -116,7 +116,7 @@
   -o-transform: translateY(-50%);
 }
 @media (max-width: 991px) {
-  .large-box .bg-img {
+  .large-box-web .bg-img {
     top: -60px;
     right: 50%;
     transform: translate(50%, 0) rotate(90deg);
@@ -133,8 +133,8 @@
 
 /* Start Customize and create  */
 .custom-create {
-  background-color: #fff;
-  box-shadow: 0px 3px 5px #d0e0e6;
+ 
+  
 }
 .custom-box {
   min-height: 350px;
@@ -143,7 +143,7 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 20px;
-  background-color: rgb(242 245 249/ 30%);
+  background-color: rgb(242 245 249/ 100%);
 
   box-shadow: 0px 1px 1px rgb(71 71 71 / 10%);
   border-radius: 10px;
@@ -174,7 +174,9 @@
 /* End Customize and create  */
 
 /* Start  Make your idea */
-
+.your-idea.mb-5 {
+  margin-bottom: 0 !important;
+}
 .your-idea .container {
   background-color: #fff;
   box-shadow: 0px 16px 25px #d0e0e6;
@@ -186,6 +188,9 @@
 }
 .your-idea h5.section-boxes-title {
   color: var(--textSecundColor);
+}
+.idea-boxes {
+  padding-bottom: 50px;
 }
 .idea-boxes .main {
   height: 500px;
@@ -326,45 +331,7 @@ top: 75px;
 
 }
 
-.your-idea .contact-us a {
-  position: relative;
-  width: 300px;
-  height: 60px;
-  margin: 30px auto;
-  text-decoration: none;
-  background-color: #0071bc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  border-radius: 6px;
-  font-size: 15px;
-  transition: var(--mainTransitionTim);
-  -webkit-transition: var(--mainTransitionTim);
-  -moz-transition: var(--mainTransitionTim);
-  -ms-transition: var(--mainTransitionTim);
-  -o-transition: var(--mainTransitionTim);
-}
-.your-idea .contact-us a::before {
-  content: "Contact Us";
-}
 
-.your-idea .contact-us a:hover {
-  background-color: var(--hover-03c3ff);
-}
-.your-idea .contact-us a:hover::before {
-  content: "Contact Now";
-}
-
-.your-idea .contact-us img {
-  width: 15px;
-  margin-left: 10px;
-  transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-}
 .main-mobile {
   background-image: url("../assets/web-design-page/bg-mobile.svg");
   background-repeat: no-repeat;

@@ -118,7 +118,7 @@ position: absolute;
   width: 15px;
   height: 15px;
   background-color: #707070;
-  right: -30px;
+  left: -30px;
   top: 6px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -139,7 +139,7 @@ position: absolute;
   width: 1px;
   top: 6px;
   background-color: #707070;
-  right: -23px;
+  left: -23px;
   z-index: 1;
   transition: var(--mainTransitionTim);
   -webkit-transition: var(--mainTransitionTim);
@@ -161,7 +161,7 @@ position: absolute;
 .cons-content .left {
   max-width: 1100px;
   margin: auto;
- margin-right: 300px;
+ margin-left: 300px;
 }
 @media(max-width: 991px) {
   .cons-content .left {
@@ -212,7 +212,7 @@ position: absolute;
     display: block;
     position: absolute;
     top: 20px;
-    right: 120px;
+    left: 120px;
     font-size: 15px;
     color: #3c414b;
   }
@@ -220,7 +220,7 @@ position: absolute;
 .cons-content .content .icon {
   width: 60px;
   height: 60px;
-  right: 50px;
+  left: 50px;
   position: absolute;
   top: 0;
 }
@@ -333,7 +333,7 @@ position: absolute;
   text-align: center;
 }
 .cons-content .left-boxes.three .box p.box-desc {
-  text-align: right;
+  text-align: left;
   font-weight: bold;
   line-height: 2;
   font-size: 15px;

@@ -5,19 +5,19 @@
  */
 
 .about-company-header {
-  height: 75vh;
-  padding-top: 120px;
-  background-image: url("../assets/home-page/header-bg.png");
+  height: 80vh;
+  padding-top: 200px;
+  /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 @media (max-width: 991px) {
   .about-company-header {
     height: auto;
-    padding-top: 220px;
+    padding-top: 200px;
   }
 }
 .about-company-header .row {
@@ -61,7 +61,7 @@
 /* Start Company Sections */
 .company-sections {
   padding: 5px 0;
-  background-color: #fcfcfc;
+  
 }
 .company-box {
   background-color: #fff;
@@ -253,7 +253,7 @@
 /* Start Company Clients */
 .company-clients {
   padding: 30px 0 0;
-  background-color: #fff;
+
 }
 .company-clients .section-title {
   margin-bottom: 0;
@@ -275,6 +275,7 @@
   }
 }
 .company-clients .clients-container .client {
+  background-color: #fff;
   width: 165px;
   height: 150px;
   margin: 0 10px;

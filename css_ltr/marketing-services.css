@@ -6,13 +6,13 @@
 
 .marketing-header {
   height: 80vh;
-  padding-top: 120px;
-  background-image: url("../assets/home-page/header-bg.png");
+  padding-top: 200px;
+  /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 .marketing-header.mb-5 {
   margin-bottom: 0 !important;
@@ -193,7 +193,7 @@
 
 /* Start Services  */
 .the-services {
-  margin-top: 80px;
+  padding-top: 40px;
 }
 
 .the-services .row {

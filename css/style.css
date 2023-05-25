@@ -620,9 +620,11 @@ body {
 
 /* start Footer */
 footer {
-  background-color: var(--unnamed-color-d9f2f2);
+  background: linear-gradient(to bottom, #4fc8ee 0%,#4197d0 24%,#356fb7 47%,#2d52a5 68%,#28409a 87%,#263a96 100%);
 }
-
+footer.pt-3 {
+  padding-top: 30px !important;
+}
 footer .d-grid {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
@@ -683,7 +685,7 @@ footer,
 footer ul li a {
   font-size: 13px;
   line-height: 1.7;
-  color: var(--text-muted-707070);
+  color: rgba(255, 252, 252, 0.9);
   text-decoration: none;
 }
 footer ul li {
@@ -755,7 +757,7 @@ footer ul li a.facebook:hover {
 }
 
 footer ul li a:hover {
-  color: var(--hover-03c3ff);
+  color: rgba(255, 252, 252, 100%);
 }
 footer ul {
   list-style: none;
@@ -784,8 +786,8 @@ footer ul {
   padding-bottom: 20px;
   font-weight: bold;
 
-  color: var(--unnamed-color-2e2e2e);
-  border-bottom: 2px solid #70707030;
+  color:rgba(255, 252, 252, 0.9);
+  border-bottom: 2px solid rgba(255, 252, 252, 0.9);
 }
 @media (max-width: 991px) {
   .footer-box .footer-title {
@@ -800,7 +802,7 @@ footer ul {
 }
 .footer-box ul li img {
   margin-right: 5px;
-  width: 14px;
+  width: 20px;
 }
 
 .footer-box ul.text-left {
@@ -841,7 +843,7 @@ footer .social ul li {
 font-size: 14px;
   width: 77px;
   padding: 10px;
-  background-color: #0071bc;
+  background-color: var(--hover-03c3ff);
   color: var(--textLight);
   margin-right: 8px;
   transition: var(--mainTransitionTim);
@@ -851,11 +853,11 @@ font-size: 14px;
   -o-transition: var(--mainTransitionTim);
 }
 .subscrip-btn:hover {
-  background-color: var(--hover-03c3ff);
+  background-color: #0071bc;
   color: var(--textLight);
 }
 .subscrip-btn img {
-  width: 9px;
+  width: 8px;
   margin-right: 5px;
 }
 
@@ -864,11 +866,12 @@ font-size: 14px;
 }
 
 .footer-bottom {
-  height: 110px;
+  height: 150px;
   background-image: url("../assets/general/nav-footer/footer.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-top: 5px;
 }
 
 .footer-bottom .container {
@@ -1035,3 +1038,63 @@ font-size: 14px;
   background-color: #ec6666;
 }
 /* End Alerts */
+
+/* Start Contact Us  */
+.contact-us-section {
+  margin: 20px auto;
+}
+
+.contact-us-section .row {
+  align-items: center;
+ 
+}
+.contact-us-section .row p {
+  font-size: 16px ;
+  font-weight: bold;
+  color: #0071bc;
+  line-height: 2;
+}
+@media(max-width: 991px) {
+  .contact-us-section .row p {
+    text-align: center;
+  }
+}
+
+ .contact-us-btn a {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  margin: 30px auto 30px 0;
+  text-decoration: none;
+  background-color: #0071bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: var(--mainTransitionTim);
+  -webkit-transition: var(--mainTransitionTim);
+  -moz-transition: var(--mainTransitionTim);
+  -ms-transition: var(--mainTransitionTim);
+  -o-transition: var(--mainTransitionTim);
+}
+@media(max-width: 991px) {
+   .contact-us-btn  a {
+    margin: auto;
+   }
+}
+
+
+.contact-us-btn  a:hover {
+  background-color: var(--hover-03c3ff);
+}
+
+
+.contact-us-btn  img {
+  width: 15px;
+  margin-right: 10px;
+}
+/* End Contact Us  */
+
+

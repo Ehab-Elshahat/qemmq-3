@@ -6,18 +6,18 @@
 
 .mobile-app-header {
   height: 80vh;
-  padding-top: 100px;
-  background-image: url("../assets/home-page/header-bg.png");
+  padding-top: 200px;
+  /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 @media (max-width: 991px) {
   .mobile-app-header {
-    height: 100vh;
-    padding-top: 270px;
+    height: auto;
+ 
   }
 }
 .mobile-app-header .row {
@@ -58,18 +58,18 @@
 @media (max-width: 991px) {
   .mobile-app-header .container .col-lg-4 {
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 /* End Header */
 
 /* Start large box */
 .large-box {
-  background-color: #fcfcfc;
+  
 }
 @media (max-width: 991px) {
   .large-box {
-    margin-top: 130px !important;
+    margin-top: 50px !important;
   }
 }
 .large-box .large-box-text {
@@ -136,14 +136,14 @@
 /* Start integrated solutions */
 
 .integrated-solutions {
-  background-color: #fff;
+ 
 }
 .integrated-box {
-  min-height: 350px;
+  height: 350px;
   margin-bottom: 25px;
 
   padding: 20px;
-  background-color: rgb(242 245 249/ 30%);
+  background-color: rgb(242 245 249/ 100%);
 
   box-shadow: 0px 1px 1px rgb(71 71 71 / 10%);
   border-radius: 10px;
@@ -152,6 +152,13 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+@media(max-width: 1400px) {
+  .integrated-box {
+    height: 400px;
+  }
+}
+
 
 .integrated-box .integrated-box-title {
   font-size: 16px;
@@ -177,7 +184,12 @@
 /* End integrated solutions */
 
 /* Start Design Steps */
+.desgin-steps.mb-5 {
+  margin-bottom: 0 !important;
+}
+
 .desgin-steps .container {
+  padding-bottom: 50px;
   background-color: #fff;
   box-shadow: 0px 16px 25px #d0e0e6;
   border-radius: 10px;

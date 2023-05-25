@@ -6,17 +6,17 @@
 
 .programs-testing-header {
   height: 80vh;
-  padding-top: 120px;
-  background-image: url("../assets/home-page/header-bg.png");
+  padding-top: 240px;
+  /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
   background-repeat: no-repeat;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 @media (max-width: 991px) {
   .programs-testing-header {
-    padding-top: 200px;
+    padding-top: 170px;
    height: auto;
   }
 }
@@ -67,7 +67,7 @@
 
 /* Start Programs Test Content */
 .page-body {
-  background-color: #fcfcfc;
+ 
 
 }
 .page-body.pt-5 {
@@ -77,11 +77,17 @@
 
 /* Start test program */
 .test-prog-opra {
-  background-color: #fff;
+  margin: 40px 0 50px;
+}
+@media(max-width: 991px) {
+  .test-prog-opra {
+  margin: 40px 0 20px;
+}
 }
 .test-prog-opra .test-boxes {
+  margin: 40px 0 20px;
   display: grid;
-  gap: 80px;
+  gap: 50px;
   grid-template-columns: 400px 400px;
   justify-content: center;
 }
@@ -91,6 +97,11 @@
   }
 }
 @media (max-width: 800px) {
+  .test-prog-opra .test-boxes {
+    grid-template-columns: 400px;
+  }
+}
+@media (max-width: 500px) {
   .test-prog-opra .test-boxes {
     grid-template-columns: 300px;
   }
@@ -145,9 +156,7 @@
 
 /* Start Options Services */
 .option-services {
-  padding: 50px 0;
-  background-color: #fff;
-  margin: 60px 0 0;
+  
 }
 @media (max-width: 991px) {
   .option-services {
@@ -195,7 +204,12 @@
 }
 @media (max-width: 991px) {
   .option-services .options-boxs {
-    grid-template-columns: 300px;
+    grid-template-columns: 300px 300px;
+  }
+}
+@media (max-width: 767px) {
+  .option-services .options-boxs {
+    grid-template-columns: 300px ;
   }
 }
 .option-services .options-boxs .option-box {
@@ -257,6 +271,26 @@
   left: 50px;
 }
 
+@media(max-width: 991px) {
+  .option-services .options-boxs .option-box:nth-child(1) .box-number, 
+  .option-services .options-boxs .option-box:nth-child(2) .box-number, 
+  .option-services .options-boxs .option-box:nth-child(3) .box-number 
+  {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.option-services .options-boxs .option-box:hover .box-number {
+  transform: translateX(3px);
+  -webkit-transform: translateX(3px);
+  -moz-transform: translateX(3px);
+  -ms-transform: translateX(3px);
+  -o-transform: translateX(3px);
+}
+}
 .option-services .options-boxs .option-box .section-boxes-title {
   font-size: 18px;
   color: #fff;
@@ -271,49 +305,3 @@
 
 /* End Options Services */
 
-/* Start Speck to team  */
-.speek-to-team {
-  margin: 50px 0 80px;
-}
-.speek-to-team a {
-  position: relative;
-  width: 300px;
-  height: 60px;
-  margin: 30px auto;
-  text-decoration: none;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #29abe2;
-  border-radius: 6px;
-  font-size: 15px;
-  transition: var(--mainTransitionTim);
-  -webkit-transition: var(--mainTransitionTim);
-  -moz-transition: var(--mainTransitionTim);
-  -ms-transition: var(--mainTransitionTim);
-  -o-transition: var(--mainTransitionTim);
-
-  border: 1px solid #29abe2;
-}
-.speek-to-team a:hover {
-  background-color: #29abe2;
-  color: #fff;
-}
-.speek-to-team a .img {
-  width: 20px;
-  height: 20px;
-  background-image: url("../assets/programs-testing/arrow.png");
-  background-repeat: no-repeat;
-  position: relative;
-  top: 6px;
-  transition: var(--mainTransitionTim);
-  -webkit-transition: var(--mainTransitionTim);
-  -moz-transition: var(--mainTransitionTim);
-  -ms-transition: var(--mainTransitionTim);
-  -o-transition: var(--mainTransitionTim);
-}
-.speek-to-team a:hover .img {
-  background-image: url("../assets/programs-testing/arrow-light.png");
-}
-/* End Speck to team  */
