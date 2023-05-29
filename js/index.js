@@ -202,55 +202,32 @@ serTitles.forEach((title, index) => {
   });
 });
 
-// Consulting Page
-let titleContainer = document.querySelector(".cons-content aside");
-let conTitles = document.querySelectorAll(".cons-content aside h3"); 
-
-let contents = document.querySelectorAll(".content");
-
-conTitles[0].addEventListener("click",()=> {
-  window.scrollTo(0,300)
-})
-conTitles[1].addEventListener("click",()=> {
-  window.scrollTo(0,950)
-})
-conTitles[2].addEventListener("click",()=> {
-  window.scrollTo(0, 1930);
-})
+// ui ux page 
+let section = document.querySelector(".on-internet");
+let numbers = document.querySelectorAll(".internet-box .ib-number");
+let numbersSpans = document.querySelectorAll(".internet-box .ib-number span");
+let started = false
 
 
+  window.addEventListener("scroll", () =>{
+    if(section) {
+      if (window.scrollY + 250 >= section.offsetTop) {
+        if (!started) {
+          numbersSpans.forEach((num) => startCount(num));
+        }
+        started = true;
+      }
+    }
+    
+  })
 
-window.addEventListener("scroll",()=> {
 
- let scrollValu = window.pageYOffset;
-if(scrollValu > 220) {
-  titleContainer.classList.add("fixed");
-} else {
-  titleContainer.classList.remove("fixed");
+function startCount(el) {
+  let goal = el.dataset.number;
+  let count = setInterval(() => {
+    el.textContent++;
+    if (el.textContent == goal) {
+          clearInterval(count);
+        }
+  }, 2000 / goal);
 }
- if (scrollValu >= 2250) {
-  titleContainer.classList.remove("fixed");
-  titleContainer.classList.add("end-section");
- } else {
-  titleContainer.classList.remove("end-section");
- }
-
- if(scrollValu >= 300 ) {
-  conTitles[0].classList.add("active", "b")
- } else {
-  conTitles[0].classList.remove("active", "b");
- }
- if (scrollValu >= 950) {
-   conTitles[1].classList.add("active", "b");
- } else {
-   conTitles[1].classList.remove("active", "b");
- }
- if (scrollValu >= 1930) {
-   conTitles[2].classList.add("active", "b");
- } else {
-   conTitles[2].classList.remove("active", "b");
- }
-
-
-
-})

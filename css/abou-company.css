@@ -26,7 +26,7 @@
 
 .about-company-header .header-r h1 {
   margin: auto;
-  max-width: 550px;
+  max-width: 300px;
   padding: 15px;
 }
 
@@ -66,7 +66,7 @@
 .company-box {
   background-color: #fff;
   padding: 20px 0;
-  margin: 50px 0;
+  margin:  0 0 50px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;

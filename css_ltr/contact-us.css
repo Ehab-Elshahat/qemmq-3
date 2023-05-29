@@ -1,40 +1,193 @@
-/* Start Contact Us  */
-.contact-us-pge {
-  margin: 160px auto 25px;
-  max-width: 900px;
+/**
+ * Start Contact Us
+ *
+ * @format
+ */
+
+/* start Header */
+.contact-us-header {
+  height: 77vh;
+  padding-top: 200px;
+  /* background-image: url("../assets/home-page/header-bg.png");
+  background-size: cover;
+  background-position: center 130px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center; */
 }
-@media(max-width:991px) {
+@media (max-width: 991px) {
+  .contact-us-header {
+    height: auto;
+    padding-top: 200px;
+  }
+}
+.contact-us-header .row {
+  align-items: center;
+}
+
+.contact-us-header .header-r h1 {
+  margin: auto;
+  max-width: 300px;
+  padding: 15px;
+}
+
+@media (max-width: 991px) {
+  .contact-us-header .header-r {
+    margin-bottom: 30px;
+  }
+}
+
+.contact-us-header .header-r p {
+  max-width: 550px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px auto;
+  line-height: 2;
+  color: #3c414b;
+}
+
+.contact-us-header .header-l {
+  width: 300px;
+  margin: auto;
+}
+@media (max-width: 991px) {
+  .contact-us-header .header-l {
+    margin: 10px auto 40px;
+  }
+}
+/* End Header */
+
+.contact-us-pge {
+  background-color: #fff;
+
+  margin-bottom: 50px;
+}
+.container-l-r {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+@media (max-width: 991px) {
+  .container-l-r {
+    display: block;
+  }
+}
+.form-border {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  padding: 40px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.container-l-r .r-form {
+}
+
+.container-l-r .left-contact-info {
+  padding: 40px;
+  background-color: #29abe2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (max-width: 991px) {
+  .container-l-r .left-contact-info {
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+}
+@media (max-width: 1200px) {
+  .container-l-r .left-contact-info {
+    padding: 40px 15px;
+  }
+}
+
+.container-l-r .left-contact-info .adress {
+  color: rgb(255, 255, 255, 0.9);
+  padding: 0;
+}
+.container-l-r .left-contact-info .adress li {
+  text-align: left;
+}
+.container-l-r .left-contact-info .adress li:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+
+.container-l-r .left-contact-info .left-social .logo {
+  width: 70px;
+  display: block;
+  margin: 20px auto 30px;
+}
+.container-l-r .left-contact-info .left-social ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-l-r .left-contact-info .left-social ul li {
+  margin: 0 5px;
+}
+.container-l-r .left-contact-info .left-social ul li a .hover {
+  display: none;
+}
+.container-l-r .left-contact-info .left-social ul li a .normal,
+.container-l-r .left-contact-info .left-social ul li a .hover {
+  width: 25px;
+  height: 25px;
+}
+.container-l-r .left-contact-info .left-social ul li a:hover .normal {
+  display: none;
+}
+.container-l-r .left-contact-info .left-social ul li a:hover .hover {
+  display: block;
+}
+
+@media (max-width: 991px) {
   .contact-us-pge {
-    margin-top: 160px  ;
+    margin-top: 20px;
   }
 }
 .contact-us-pge .section-title {
-  text-align: right;
+  margin-top: 0;
+  font-size: 16px;
   margin-bottom: 5px;
 }
-@media(max-width:600px) {
+@media (max-width: 600px) {
   .contact-us-pge .section-title {
     max-width: 100%;
   }
 }
 .contact-us-pge p {
-  color: #2E2E2E;
+  color: #2e2e2e;
   font-size: 14px;
   line-height: 1.7;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.contact-us-pge p a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+  color: #03c3ff;
 }
 .contact-us-pge form {
-
   margin-top: 20px;
 }
 .contact-us-pge form input,
 .contact-us-pge form textarea {
-  font-size: 12px;
+  font-size: 15px;
   width: 100%;
-  padding: 8px 10px;
+  padding: 10px;
   margin-bottom: 15px;
-  background-color: #FCFCFC ;
-  border: 1px solid #98A3BA78;
+  background-color: #fcfcfc;
+  border: 1px solid #98a3ba78;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -43,26 +196,25 @@
 }
 .contact-us-pge form input:focus,
 .contact-us-pge form textarea:focus {
-  outline-color: #03C3FF;
+  outline-color: #03c3ff;
 }
 
-.contact-us-pge form textarea  {
+.contact-us-pge form textarea {
   min-height: 80px;
 }
-.contact-us-pge form button[type= "submit"] {
+.contact-us-pge form button[type="submit"] {
   position: relative;
-  background-color: #0071BC;
+  background-color: #0071bc;
   color: #fff;
 
-
-      display: flex;
-    align-items: center;
-    justify-content: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-width: 200px;
-  min-height: 40px;
+  min-height: 50px;
   margin-right: auto;
-  
-  border: 1px solid #0071BC;
+
+  border: 1px solid #0071bc;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -74,20 +226,21 @@
   -ms-transition: var(--mainTransitionTim);
   -o-transition: var(--mainTransitionTim);
 }
-@media(max-width:991px) {
-  .contact-us-pge form button[type= "submit"] {
+@media (max-width: 991px) {
+  .contact-us-pge form button[type="submit"] {
     margin: auto;
+    width: 100%;
   }
 }
-.contact-us-pge form button[type= "submit"] .img {
+.contact-us-pge form button[type="submit"] .img {
   display: block;
-  width: 20px;
+  width: 18px;
   height: 15px;
-  margin-right: 48px;
+  margin-left: 5px;
   background-image: url("../assets/contact-us-page/arrow-left.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 16px;
+  background-size: 18px;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -95,95 +248,66 @@
   -o-transform: rotate(180deg);
 }
 
-.contact-us-pge form button[type= "submit"]::before {
-    position: absolute;
-    font-size: 14px;
-    content: "ارسال ";
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+.contact-us-pge form button[type="submit"]:hover {
+  background-color: #29abe2;
+  border-color: #29abe2;
 }
 
-.contact-us-pge form button[type= "submit"]:hover {
-  background-color: #29ABE2;
-  border-color: #29ABE2;
+.contact-us-pge form button[type="submit"]:focus {
+  background-color: #4ac959;
+  border-color: #4ac959;
 }
 
-.contact-us-pge form button[type= "submit"]:focus {
-  background-color: #4AC959;
-  border-color: #4AC959;
-}
-.contact-us-pge form button[type= "submit"]:focus::before {
-  font-size: 14px;
-  content: "نجاح الارسال";
-}
-.contact-us-pge form button[type= "submit"]:focus .img{
-    background-image: url("../assets/contact-us-page/success.svg");
-    margin-right: 25px;
-    background-size: 20px;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
+.contact-us-pge form button[type="submit"]:focus .img {
+  background-image: url("../assets/contact-us-page/success.svg");
+
+  background-size: 20px;
 }
 .form-phone {
   position: relative;
-  
 }
 .custom-select {
   position: absolute;
-  
-  width: 80px;
-  height: 24px;
+ 
+  width: 100px;
+  height: 30px;
   right: 8px;
-  top: 6px;
-  display: flex;
-  background-color: #EFEFEF;
+  top: 7px;
+  background-color: #efefef;
   padding-left: 10px;
+  display: flex;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  
 }
 .custom-select::before {
   content: "";
   position: absolute;
   width: 1px;
   height: 100%;
-  background-color:#98A3BA78;
+  background-color: #98a3ba78;
   left: -10px;
 }
 .select-box {
   text-align: left;
-   padding-left: 5px;
+  padding-right: 5px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 15px;
   direction: rtl;
   border: none;
-  
- 
   width: 100%;
   color: #707070;
-  background-color: #EFEFEF;
- border-radius: 5px;
+  background-color: #efefef;
+  border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-
 }
 .select-box:focus {
   outline: none;
 }
-
-
-
 
 /* End Contact Us  */

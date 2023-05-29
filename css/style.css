@@ -42,6 +42,12 @@
 /* Style consulting-info-tech Page */
 @import "./consulting-info-tech.css";
 
+/* Style UI UX Services */
+@import "./ui-ux-services.css";
+
+/* Style visual-identity Page */
+@import "./visual-identity.css";
+
 
 
 html {
@@ -756,9 +762,47 @@ footer ul li a.facebook:hover {
   background-image: url("../assets/general/nav-footer/social-icons/facebook.png");
 }
 
+footer .our-serv-box ul li a,
+footer .links-box ul li a {
+  position: relative;
+  
+}
+footer .our-serv-box ul li a::before,
+footer .links-box ul li a::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-image: url("../assets/general/nav-footer/subscrib-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transition: var(--mainTransitionTim);
+ 
+  -webkit-transition: var(--mainTransitionTim);
+  -moz-transition: var(--mainTransitionTim);
+  -ms-transition: var(--mainTransitionTim);
+  -o-transition: var(--mainTransitionTim);
+   display: none;
+}
+
+footer .our-serv-box ul li a:hover::before,
+footer .links-box ul li a:hover::before {
+  display: block;
+}
+
 footer ul li a:hover {
   color: rgba(255, 252, 252, 100%);
 }
+
+
 footer ul {
   list-style: none;
   padding: 0;
@@ -779,6 +823,7 @@ footer ul {
 .footer-box p {
   font-size: 14px;
   line-height: 2;
+  margin-left: 20px;
 }
 
 .footer-box .footer-title {
@@ -885,6 +930,13 @@ font-size: 14px;
   bottom: 10px;
   left: 0;
   padding: 0 10px;
+}
+@media(max-width: 767px){
+  .footer-bottom .footer-copy {
+    justify-content: center;
+
+    width: 100%;
+  }
 }
 .footer-bottom .footer-copy p {
   margin: 17px 0 0 10px;

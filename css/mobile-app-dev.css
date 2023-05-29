@@ -64,9 +64,7 @@
 /* End Header */
 
 /* Start large box */
-.large-box {
-  
-}
+
 @media (max-width: 991px) {
   .large-box {
     margin-top: 50px !important;
@@ -135,9 +133,7 @@
 
 /* Start integrated solutions */
 
-.integrated-solutions {
- 
-}
+
 .integrated-box {
   height: 350px;
   margin-bottom: 25px;
