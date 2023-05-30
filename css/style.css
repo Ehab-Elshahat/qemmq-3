@@ -48,6 +48,21 @@
 /* Style visual-identity Page */
 @import "./visual-identity.css";
 
+/* Style Premium One Page */
+@import "./premium-one.css";
+
+/* Style Vivid  Page */
+@import "./vivid.css";
+
+/* Style 3abkary  Page */
+@import "./abkary.css";
+
+/* Style Saraa  Page */
+@import "./saraa.css";
+
+/* Style Jadpay  Page */
+@import "./jadpay.css";
+
 
 
 html {

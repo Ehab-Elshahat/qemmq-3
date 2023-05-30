@@ -1,0 +1,173 @@
+/**
+ * Start Header
+ *
+ * @format
+ */
+
+.saraa-header {
+  height: 80vh;
+  padding-top: 200px;
+  overflow: hidden;
+}
+
+.saraa-header .row {
+  align-items: center;
+}
+
+.saraa-header .header-r {
+  padding-right: 150px;
+}
+.saraa-header .header-r .header-title-1 {
+  color: #808080;
+  font-weight: normal;
+  font-size: 3vh;
+}
+.saraa-header .header-r .page-title-up {
+  background-color: transparent;
+  color: #2e2e2e;
+  text-align: right;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 4vh;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.saraa-header .header-l {
+  padding-left: 100px;
+  text-align: center;
+}
+.saraa-header .header-l .header-hero {
+  width: 310px;
+  height: 310px;
+}
+@media (max-width: 991px) {
+  .saraa-header {
+    padding-top: 200px;
+    height: auto;
+  }
+  .saraa-header .header-r {
+    padding-right: 0;
+  }
+  .saraa-header .header-l {
+    padding-left: 0;
+    text-align: left;
+    /* margin-bottom: 20px; */
+  }
+}
+
+@media (max-width: 767px) {
+  .saraa-header .header-r,
+  .saraa-header .header-r .page-title-up {
+    text-align: center;
+  }
+  .saraa-header .header-l {
+    text-align: center;
+  }
+  .saraa-header .header-l .header-hero {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+/* End Header */
+
+/* Start Page Text */
+.saraa-text {
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+
+
+.saraa-text .prem-text-r {
+  position: relative;
+}
+
+.saraa-text .prem-text-r .section-logo {
+  position: absolute;
+  width: 120px;
+  height: 230px;
+right: -130px;
+  
+}
+
+
+
+
+.saraa-text .prem-text-r h3 {
+  font-size: 2.9vh;
+  color: #2e2e2e;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.saraa-text .prem-text-r h4 {
+  color: #707070;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 3vh;
+}
+.saraa-text .prem-text-r p {
+  color: #2e2e2e;
+  font-size: 15px;
+  line-height: 2;
+}
+.saraa-text .prem-text-l {
+  margin-right: 200px;
+}
+.saraa-text .prem-text-l ul {
+  padding: 0;
+  margin: 0;
+}
+.saraa-text .prem-text-l ul li {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.saraa-text .prem-text-l ul li:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+@media (max-width: 991px) {
+  .saraa-text .prem-text-l {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .saraa-text .prem-text-l {
+    margin-top: 20px;
+    margin-right: 15px;
+  }
+  .saraa-text .prem-text-r .section-logo {
+    display: none;
+  }
+}
+/* End Page Text */
+
+/* Start Gallery */
+.saraa-gallery {
+  margin-top: 50px;
+}
+.saraa-gallery .one,
+.saraa-gallery .tow,
+.saraa-gallery .three,
+.saraa-gallery .four,
+.saraa-gallery .five,
+.saraa-gallery .six,
+.saraa-gallery .seven,
+.saraa-gallery .eight,
+.saraa-gallery .nine,
+.saraa-gallery .ten,
+.saraa-gallery .eleven,
+.saraa-gallery .twelve
+ {
+  max-width: 100%;
+  margin: 20px auto 40px;
+}
+
+.saraa-gallery .twelve {
+  margin: 20px auto;
+}
+
+.saraa-gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+/* End Gallery */

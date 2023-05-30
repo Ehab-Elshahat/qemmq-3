@@ -1,0 +1,146 @@
+/**
+ * Start Header
+ *
+ * @format
+ */
+
+.premium-header {
+  height: 80vh;
+  padding-top: 200px;
+  overflow: hidden;
+}
+
+.premium-header .row {
+  align-items: center;
+}
+
+.premium-header .header-r {
+  padding-right: 150px;
+}
+.premium-header .header-r .header-title-1 {
+  color: #808080;
+  font-weight: normal;
+  font-size: 3vh;
+}
+.premium-header .header-r .page-title-up {
+  background-color: transparent;
+  color: #2e2e2e;
+  text-align: right;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 4vh;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.premium-header .header-l {
+  padding-left: 100px;
+  text-align: center;
+}
+.premium-header .header-l .header-hero {
+  width: 310px;
+  height: 310px;
+}
+@media (max-width: 991px) {
+  .premium-header {
+    padding-top: 200px;
+    height: auto;
+  }
+  .premium-header .header-r {
+    padding-right: 0;
+  }
+  .premium-header .header-l {
+    padding-left: 0;
+    text-align: left;
+    /* margin-bottom: 20px; */
+  }
+}
+
+@media (max-width: 767px) {
+  .premium-header .header-r,
+  .premium-header .header-r .page-title-up {
+    text-align: center;
+  }
+  .premium-header .header-l {
+    text-align: center;
+  }
+  .premium-header .header-l .header-hero {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+/* End Header */
+
+/* Start Page Text */
+.premium-text {
+  margin-top: 40px;
+  padding-top: 20px;
+}
+.premium-text .prem-text-r h3 {
+  font-size: 2.9vh;
+  color: #2e2e2e;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.premium-text .prem-text-r h4 {
+  color: #707070;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 3vh;
+}
+.premium-text .prem-text-r p {
+  color: #2e2e2e;
+  font-size: 15px;
+  line-height: 2;
+}
+.premium-text .prem-text-l {
+  margin-right: 200px;
+}
+.premium-text .prem-text-l ul {
+  padding: 0;
+  margin: 0;
+}
+.premium-text .prem-text-l ul li {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.premium-text .prem-text-l ul li:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+@media (max-width: 991px) {
+  .premium-text .prem-text-l {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .premium-text .prem-text-l {
+    margin-top: 20px;
+    margin-right: 15px;
+  }
+}
+/* End Page Text */
+
+/* Start Gallery */
+.premium-gallery {
+  margin-top: 50px;
+}
+.premium-gallery .one,
+.premium-gallery .tow,
+.premium-gallery .three,
+.premium-gallery .four,
+.premium-gallery .five,
+.premium-gallery .six,
+.premium-gallery .seven {
+  max-width: 100%;
+  margin: 20px auto 40px;
+}
+
+.premium-gallery .seven {
+  margin: 20px auto;
+}
+
+.premium-gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+/* End Gallery */
