@@ -63,6 +63,12 @@
 /* Style Jadpay  Page */
 @import "./jadpay.css";
 
+/* Style Article Page */
+@import "./article.css";
+
+/* Style Error 404 Page */
+@import "./error404.css";
+
 
 
 html {

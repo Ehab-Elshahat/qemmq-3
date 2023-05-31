@@ -6,8 +6,9 @@
 
 /* start Header */
 .contact-us-header {
-  height: 77vh;
+  max-height: 77vh;
   padding-top: 200px;
+  margin-bottom: 60px;
   /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
@@ -17,8 +18,9 @@
 }
 @media (max-width: 991px) {
   .contact-us-header {
-    height: auto;
+    max-height: 100%;
     padding-top: 200px;
+    margin-bottom: 30px;
   }
 }
 .contact-us-header .row {
@@ -101,7 +103,7 @@
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
-}
+  }
 }
 @media (max-width: 1200px) {
   .container-l-r .left-contact-info {
@@ -268,7 +270,7 @@
 }
 .custom-select {
   position: absolute;
- 
+
   width: 100px;
   height: 30px;
   right: 8px;

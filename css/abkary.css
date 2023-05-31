@@ -5,7 +5,7 @@
  */
 
 .abkary-header {
-  height: 80vh;
+  max-height: 80vh;
   padding-top: 200px;
   overflow: hidden;
 }
@@ -43,7 +43,7 @@
 @media (max-width: 991px) {
   .abkary-header {
     padding-top: 200px;
-    height: auto;
+    max-height: 100%;
   }
   .abkary-header .header-r {
     padding-right: 0;

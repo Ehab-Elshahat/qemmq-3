@@ -5,7 +5,7 @@
  */
 
 .jadpay-header {
-  height: 80vh;
+  max-height: 80vh;
   padding-top: 200px;
   overflow: hidden;
 }
@@ -43,7 +43,7 @@
 @media (max-width: 991px) {
   .jadpay-header {
     padding-top: 200px;
-    height: auto;
+    max-height: 100%;
   }
   .jadpay-header .header-r {
     padding-left: 0;

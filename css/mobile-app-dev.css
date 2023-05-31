@@ -5,8 +5,9 @@
  */
 
 .mobile-app-header {
-  height: 80vh;
+  max-height: 80vh;
   padding-top: 200px;
+  margin-bottom: 60px;
   /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
@@ -16,8 +17,8 @@
 }
 @media (max-width: 991px) {
   .mobile-app-header {
-    height: auto;
- 
+    max-height: 100%;
+    margin-bottom: 30px;
   }
 }
 .mobile-app-header .row {

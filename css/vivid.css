@@ -5,7 +5,7 @@
  */
 
 .vivid-header {
-  height: 80vh;
+  max-height: 80vh;
   padding-top: 200px;
   overflow: hidden;
 }
@@ -43,7 +43,7 @@
 @media (max-width: 991px) {
   .vivid-header {
     padding-top: 200px;
-    height: auto;
+    max-height: 100%;
   }
   .vivid-header .header-r {
     padding-right: 0;

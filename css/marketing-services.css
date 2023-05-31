@@ -5,8 +5,9 @@
  */
 
 .marketing-header {
-  height: 80vh;
+  max-height: 80vh;
   padding-top: 200px;
+
   /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
@@ -15,13 +16,16 @@
   align-items: center; */
 }
 .marketing-header.mb-5 {
-  margin-bottom: 0 !important;
+  margin-bottom: 60px !important;
 }
 @media (max-width: 991px) {
   .marketing-header {
     padding-top: 200px;
-    height: auto;
+    max-height: 100%;
   }
+  .marketing-header.mb-5 {
+  margin-bottom: 30px !important;
+}
 }
 .marketing-header .row {
   align-items: center;

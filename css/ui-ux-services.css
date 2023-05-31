@@ -5,8 +5,9 @@
  */
 
 .ui-ux-header {
-  height: 80vh;
+  max-height: 80vh;
   padding-top: 200px;
+  margin-bottom: 40px;
   /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
@@ -16,7 +17,7 @@
 }
 @media (max-width: 991px) {
   .ui-ux-header {
-    height: auto;
+    max-height: 100%;
   }
 }
 .ui-ux-header .row {

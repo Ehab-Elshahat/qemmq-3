@@ -1,12 +1,12 @@
 .visual-header {
-  height: 80vh;
+  max-height: 80vh;
   padding-top: 200px;
 overflow: hidden;
 }
 @media (max-width: 991px) {
   .visual-header {
     padding-top: 100px;
-    height: auto;
+    max-height: 100%;
   }
 }
 

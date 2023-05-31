@@ -1,0 +1,70 @@
+/* Start Header */
+.error-header {
+  margin-top: 200px;
+}
+.error-header .error-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-header .error-img {
+  width: 420px;
+  margin-right: 100px;
+}
+.error-header .error-img img {
+  width: 100%;
+}
+.error-btn {
+  text-align: right;
+  margin-left: 100px;
+  background-color: #fff;
+
+}
+.error-btn a {
+  color: #0071BC;
+  text-decoration: none;
+  display: block;
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #0071BC;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.error-btn a:hover {
+  background-color: rgb(81, 200, 237, 0.14) ;
+  border-color:  rgb(81, 200, 237, 0.14)
+}
+@media(max-width:767px){
+.error-header .error-content {
+  flex-direction: column;
+}
+ .error-header .error-img  {
+  margin-bottom: 40px;
+  width: auto;
+ }
+}
+@media(max-width:991px) {
+  .error-header .error-img {
+
+  margin-right: 0;
+}
+
+.error-btn {
+
+  margin-left: 0;
+
+
+}
+}
+/* End Header */

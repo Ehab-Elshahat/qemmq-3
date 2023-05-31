@@ -4,8 +4,9 @@
 */
 
 .graphic-des-header {
-  height: 80vh;
+  max-height: 80vh;
   padding-top: 200px;
+  margin-bottom: 60px;
   /* background-image: url("../assets/home-page//header-bg.png");
   background-size: cover;
   background-position: center 130px;
@@ -15,8 +16,9 @@
 }
 @media (max-width: 991px) {
   .graphic-des-header {
-    height: auto;
+    max-height: 100%;
       padding-top: 200px;
+      margin-bottom: 30px;
   }
 }
 .graphic-des-header .row {

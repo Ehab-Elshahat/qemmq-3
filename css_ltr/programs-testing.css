@@ -5,8 +5,9 @@
  */
 
 .programs-testing-header {
-  height: 80vh;
+  max-height: 80vh;
   padding-top: 240px;
+  margin-bottom: 60px;
   /* background-image: url("../assets/home-page/header-bg.png");
   background-size: cover;
   background-position: center 130px;
@@ -17,7 +18,8 @@
 @media (max-width: 991px) {
   .programs-testing-header {
     padding-top: 170px;
-    height: auto;
+    max-height: 100%;
+     margin-bottom: 30px;
   }
 }
 .programs-testing-header .row {
